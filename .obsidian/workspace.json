@@ -11,10 +11,10 @@
             "id": "f1366f92116760d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -158,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d67e5fda530a27ae",
+  "active": "f1366f92116760d9",
   "lastOpenFiles": [
     "roadmap/Fundamentos IT skills/Placa mãe.md",
     "roadmap/Fundamentos IT skills/O que é Hardware;.md",
