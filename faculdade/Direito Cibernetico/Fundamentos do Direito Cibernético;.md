@@ -1,7 +1,7 @@
 Antes de iniciar os estudos a faculdade pediu para saber sobre a Lei do Marco Civil da Internet e a Lei Geral de Proteção de Dados, então como não passaram o conteúdo fui atrás.
 
 ## Lei 12.965/2014 - Marco Civil da Internet
-- O Marco Civil e uma lei com a qual dita qual a maneira de tratamento na internet estabelecendo princípios, direitos e deveres na internet do *Brasil* . Seria um [[constituição]] da internet, visando garantir a neutralidade, liberdade de expressão e também a privacidade virtual.
+- O Marco Civil e uma lei com a qual dita qual a maneira de tratamento na internet estabelecendo princípios, direitos e deveres na internet do *Brasil* . Seria uma constituição da internet, visando garantir a neutralidade, liberdade de expressão e também a privacidade virtual.
 ---
 Principais Pontos:
 - 1° Neutralidade Da Rede = Visa por parte da provedora de internet a ter neutralidade em seu serviço sem deixar que seja descriminado por origem, destino, tipo e serviços dos dados. tratando todos igualitariamente sem prioridades. Como por exemplo, fornecer uma velocidade de rede maior um servidor somente por ser parceiro tendo o mesmos contratos.
@@ -141,3 +141,144 @@ A LGPD se aplica sempre que dados pessoais forem tratados por:
 # Modulo 1
 
 ## Ciência Cibernética: alguns conceitos;
+
+Para começar nos estudos iremos entender a Diferença entre Ciência Informatica e Telemática,
+
+Informatica => Focada na parte interna dos computadores e na tecnologia da informação, o estudo de como criar programas, apps, ferramentas, ao coisas que utilizamos no computador, e como entender e construir o cérebro do computador.
+
+Telemática => Focada  em descobrir maneiras de comunicação entre dispositivos, misturando telecomunicação e informatica. Seja através da internet, redes moveis, wirelesses, é como esses dados serão processados, a maneira correta é mais fácil. Seria aprender diversas maneiras de comunicação sobre a como e feita a conversa de um dispositivo para outro.
+
+O que seria informação:
+
+Definição: E o conhecimento que pode ser armazenado e compartilhado, seja por via virtual ou física sendo a base de toda tecnologia. A informação e um conhecimento tocável, podendo ser manipulado, armazenado e compartilhado de diversas maneiras seja no mundo físico como um livro ou virtual como um PDF. 
+
+O que seria um DADO (Em Direitos Cibernéticos):
+
+Definição: O peso de um documento em que se encontra no mundo real, Podendo a depender de certas circunstancias, poderá ter o mesmo peso que um documento virtual, e toda informação física armazenada deverá ter a mesma proteção do documento físico, mesmo após se tornar um documento virtual.
+
+Ciência da informação:
+
+A ciência da informação consiste no estudo da informação em si. De acordo com [Le Coadic](https://bibliotextos.wordpress.com/wp-content/uploads/2012/07/a-cic3aancia-da-informac3a7c3a3o-le-coadic.pdf) (2004, p. 25), a ciência da informação “tem por objeto o estudo das propriedades gerais da informação (natureza, gênese e efeitos)”. É o estudo da informação em si em todas as suas formas, a informática como o desenvolvimento de mecanismos eletrônicos de armazenamento e processamento dessa informação, como, por exemplo, o computador.
+
+
+## Como é a relação entre o Direito e as tecnologias da informação?;
+
+As tecnologias da informação alteram profundamente as estruturas sociais e não apenas o Direito, que é influenciado direta ou indiretamente. o que essa frase significa;
+### **1. Transformações nas estruturas sociais:**
+
+- **O que isso significa?**
+    - As tecnologias da informação mudaram **como as pessoas se comunicam, trabalham e se organizam na sociedade.**
+    - Exemplos:
+        - Redes sociais mudaram a forma como nos relacionamos.
+        - Comércio eletrônico transformou a economia.
+        - Acessibilidade à informação permitiu maior acesso à educação e conhecimento.
+
+---
+### **2. Impacto no Direito:**
+
+- **Direto:**
+    - As TI criaram **novas demandas legais**:
+        - Crimes cibernéticos (hacking, phishing).
+        - Privacidade e proteção de dados (como a **LGPD** no Brasil).
+        - Regulação de plataformas digitais (Uber, redes sociais, etc.).
+- **Indireto:**
+    - As TI influenciam **como o Direito é aplicado**:
+        - Processos judiciais eletrônicos.
+        - Provas digitais em investigações criminais.
+        - Contratos assinados digitalmente.
+---
+
+
+## Tecnologia da informação;
+
+### **Ideia principal**
+
+As **tecnologias da informação** mudaram a maneira como pensamos, entendemos e resolvemos problemas na sociedade. Isso afeta tanto as ideias de quem estuda o assunto (como pesquisadores e juristas) quanto as decisões tomadas para resolver conflitos sociais.
+
+---
+
+### **Pontos importantes explicados:**
+
+1. **A sociedade muda, e o pensamento humano acompanha.**
+    
+    - As tecnologias mudam a forma como vivemos, nos relacionamos e resolvemos problemas.
+    - Como os estudiosos e profissionais fazem parte dessa sociedade, o jeito deles de pensar e interpretar também muda.
+    
+    **Exemplo:** Antes, contratos eram feitos no papel e assinados à mão. Hoje, usamos assinaturas digitais, o que mudou tanto a prática quanto a forma de pensar sobre segurança e validade legal.
+    
+
+---
+
+2. **As tecnologias afetam dois aspectos principais nos conflitos sociais:**
+    - **1. Como as decisões são feitas e interpretadas:**
+        
+        - Agora, as decisões precisam levar em conta as mudanças trazidas pela tecnologia.
+        - **Exemplo:** Resolver um caso de privacidade digital exige entender como os dados são coletados e tratados.
+    - **2. Como as tecnologias ajudam a resolver conflitos:**
+        
+        - Em alguns casos, a tecnologia é usada para resolver disputas, com a mesma validade legal que uma decisão tradicional.
+        - **Exemplo:**
+            - **Arbitragem online:** Duas empresas entram em um site especializado, apresentam suas queixas, e um árbitro decide a disputa pela internet.
+            - **Contratos digitais:** Empresas criam contratos inteligentes (smart contracts) que se executam sozinhos quando condições são cumpridas, sem precisar de intermediários.
+
+---
+
+### **Resumo:**
+
+As tecnologias da informação mudaram a forma como pensamos e resolvemos problemas na sociedade. Elas influenciam tanto o **conteúdo** das decisões (o que está sendo decidido) quanto a **forma** como essas decisões são tomadas (usando tecnologia para resolver disputas).
+
+---
+### **Ideia principal**
+
+As tecnologias da informação não só mudam a maneira como pensamos e agimos no Direito, mas também influenciam as pessoas que interpretam as normas (as leis). Isso vale tanto para quem trabalha em pesquisa e teoria (a "doutrina") quanto para quem aplica a lei na prática (os intérpretes normativos, como juízes ou advogados).
+
+---
+
+### **Divisão entre dois grupos principais**
+
+1. **Doutrina (pesquisa e teoria):**
+    
+    - Esse grupo (como pesquisadores e acadêmicos) interpreta as leis com base em estudo, curiosidade ou até motivos comerciais.
+    - **Exemplo:** Um professor de Direito escreve um artigo sobre como a LGPD pode impactar contratos de trabalho para ganhar reconhecimento ou vender consultorias.
+2. **Intérpretes normativos (prática jurídica):**
+    
+    - Juízes, conciliadores, árbitros ou advogados precisam aplicar as leis em situações reais (ou prever como aplicá-las no futuro).
+    - **Exemplo:** Um juiz decide um caso onde um aplicativo usou dados pessoais de forma ilegal, interpretando as leis de proteção de dados.
+
+---
+
+### **Onde o problema aparece mais claramente?**
+
+- O texto fala que as **tecnologias da informação mudam o "suporte fático"**, ou seja, os **fatos e as circunstâncias** sobre os quais as leis são aplicadas.
+    - **Exemplo:** Antigamente, a maioria dos contratos era no papel. Hoje, temos contratos digitais e até automáticos (como smart contracts). Isso cria novos debates:
+        - Esses contratos digitais têm a mesma validade?
+        - Quem é responsável se algo der errado?
+
+---
+
+### **Efeito dominó**
+
+Quando as tecnologias mudam os fatos e situações, isso afeta tudo no Direito:
+
+- Como a norma é interpretada.
+- Como ela é aplicada.
+- Como as discussões acadêmicas acontecem.
+
+Essas mudanças trazem debates importantes, como:
+
+- Privacidade versus inovação tecnológica.
+- Inteligência artificial tomando decisões legais.
+- O impacto da globalização digital no Direito local.
+
+---
+
+### **Resumo simples:**
+
+As tecnologias da informação mudam:
+
+1. **O que os estudiosos (doutrina) pensam sobre as leis.**
+2. **Como os profissionais (juízes, advogados) aplicam as leis.**
+
+O maior impacto está nos **fatos concretos** que a tecnologia transforma, criando debates complexos e novos desafios para o Direito acompanhar.
+
+## Entendendo a internet;
