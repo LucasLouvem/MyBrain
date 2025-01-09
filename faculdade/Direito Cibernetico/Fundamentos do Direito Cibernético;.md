@@ -282,3 +282,19 @@ As tecnologias da informação mudam:
 O maior impacto está nos **fatos concretos** que a tecnologia transforma, criando debates complexos e novos desafios para o Direito acompanhar.
 
 ## Entendendo a internet;
+
+A internet é a estrutura física de uso mundial, público e irrestrito, por meio do qual há a comunicação de dados entre usuários.
+
+Conforme definição do próprio art. 5º, I, da Lei n. 12.965/2014, conhecida como Marco Civil da Internet (MCI): “I - internet: o sistema constituído do conjunto de protocolos lógicos, estruturado em escala mundial para uso público e irrestrito, com a finalidade de possibilitar a comunicação de dados entre terminais por meio de diferentes redes”.
+
+A conexão à internet ocorre por meio de terminais (dispositivos eletrônicos em geral, computadores, _smartphones_, _tablets_ etc.), que não são os usuários, esses últimos, os que estão por trás dos terminais e que precisam ser identificados.
+
+O MCI define terminal como “II - terminal: o computador ou qualquer dispositivo que se conecte à internet;” (MCI, art. 5º, II). Cada terminal, nessa infraestrutura da internet, é identificado pelo conjunto dos registros eletrônicos – “o conjunto de informações referentes à data e hora de início e término de uma conexão à internet, sua duração e o endereço IP utilizado pelo terminal para o envio e recebimento de pacotes de dados;” (MCI, art. 5º, VI). São eles:
+
+***IP / Data / Hora / Fuso horário / Porta lógica de origem (transição IPV4 e IPV6)***
+
+A habilitação ou a entrada de cada terminal na infraestrutura da internet ocorre pela chamada **conexão de internet**, sendo esse um serviço prestado por empresas definidas como **provedores de conexão**( A impressa que fornece o acesso). A partir do momento em que o terminal (Dispositivo conectado) está conectado à internet tudo o que ele acessa (e o usuário por trás dele) é definido como **aplicação de internet** – “VII - aplicações de internet: o conjunto de funcionalidades que podem ser acessadas por meio de um terminal conectado à internet;” (MCI, art. 5º, VII).
+
+# Módulo 2
+
+## Constituição Federal e as tecnologias da informação;
