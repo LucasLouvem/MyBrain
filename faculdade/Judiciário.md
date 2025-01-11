@@ -1,0 +1,3 @@
+- O que faz => Garante que leis sejam cumpridas e resolve conflitos julgando pessoas ou instituições.
+- Quem faz parte => Juízes, desembargadores e ministros de tribunais (Como o STF - Supremo Tribunal Federal)
+- Exemplo => Decidis de uma empresa violou a privacidade de dados dos clientes.

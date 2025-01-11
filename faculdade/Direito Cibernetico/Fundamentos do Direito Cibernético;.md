@@ -298,3 +298,35 @@ A habilitação ou a entrada de cada terminal na infraestrutura da internet ocor
 # Módulo 2
 
 ## Constituição Federal e as tecnologias da informação;
+
+O estudo sobre a Constituição Federal é o inicio do pensamento sobre alguns aspectos em relação ao jurídico com o assunto refente a tecnologia da informação. Dentro deste tema a constituição federal pode ser dividida em três grupos sendo eles.
+
+#### Estruturação do estado => 
+Refere-se ás normas que organizam os poderes do Estado sendo, [[Legislativo]], [[Executivo]] e [[Judiciário]]. Os quais ao encontro com a tecnologia batem de frente com alguns desafios específicos.
+Alguns por exemplo:
+-  Processo Eleitoral;
+	- **Votação eletrônica** => O Brasil utiliza de urnas eletrônicas, que trazem questões sobre segurança, transparência e auditoria do processo eleitoral.
+	- Exemplo : Um hacker pode invadir o sistema de urnas eletrônicas relacionados à votação, o Poder judiciário(TSE - Tribunal superior eleitoral) é responsável pela segurança e integridade desses sistemas.
+- Processo Legislativo;
+	- Uso de tecnologias para criação de leis pós com a tecnologia agora e permitido debates online, votação remota de parlamentares e consultas públicas.
+---
+
+#### Direitos fundamentais => 
+Proteger a liberdade e garantis os limites do poder do Estado, tanto em relação entre o estado e indivíduos tanto como nas relações entre pessoas.
+
+Exemplos de direitos fundamentais ligado à tecnologia:
+ 1. Liberdade de expressão na internet: Compartilhar opiniões online
+ 2. Liberdade de pensamento e religião: Como manifestações religiosas ou filosóficas de forma virtual.
+ - Limites à liberdade: 
+	 - Não pode usar a liberdade para atacar a honra ou imagem de outro individuo.
+	 - Direito ao esquecimentos: Equilibrar Liberdade de expressão e o direito a privacidade(Ex: Excluir informações antigas ou prejudiciais da internet)
+- **Direito de Proteção**: Garante a segurança para indivíduos e suas criações, como;
+	- Direitos autorais e propriedade intelectual como a proteção de musicas, livros ou invenções.
+	- Herança digital ditando refente a posso de herdeiros a conta de usuário em sua rede social após a morte do dono.
+- Direito Social:
+	- Foca na igualdade e proteção no trabalho: Como por exemplo evitar que algorítimos de recrutamento prejudiquem candidatos com base em preconceitos ou informações injustas.
+- *Resumindo* = Esses direitos ajudam a equilibrar o uso de tecnologia, garantindo uma liberdade e proteção mas também estabelecem limites para evitar abusos.
+---
+#### Normas programáticas =>
+
+
