@@ -314,6 +314,32 @@ Alguns por exemplo:
 #### Direitos fundamentais => 
 Proteger a liberdade e garantis os limites do poder do Estado, tanto em relação entre o estado e indivíduos tanto como nas relações entre pessoas.
 
+Os diretos fundamentais podem ser divididos em camadas, baseado com a maneira conforme foram evoluindo, sendo classificados em 1°,2°,3° e 4° dimensão.
+
+1. **Primeira dimensão: Direitos individuais (ou humanos positivados)**
+    
+    - São direitos ligados à liberdade.
+    - Exemplo: Liberdade de expressão, direito à vida, e proteção contra abusos do governo.
+2. **Segunda dimensão: Direitos sociais**
+    
+    - Garantem igualdade e ajudam as pessoas a ter condições de vida digna.
+    - Exemplo: Direito à educação, saúde, trabalho e moradia.
+3. **Terceira dimensão: Direitos coletivos**
+    
+    - Protegem grupos e o bem comum.
+    - Exemplo: Direito ao meio ambiente saudável, proteção do consumidor.
+4. **Quarta dimensão: Novos direitos tecnológicos e globais**
+    
+    - Lidam com desafios modernos e avanços da tecnologia.
+    - Exemplo: Direito à privacidade digital e à proteção de dados pessoais.
+
+---
+
+##### **Resumo fácil**
+
+- Os direitos fundamentais são como um "escudo" para proteger as pessoas do abuso do governo e garantir uma vida digna.
+- Eles evoluem com o tempo, por isso foram divididos em dimensões, conforme a sociedade foi enfrentando novos problemas.
+
 Exemplos de direitos fundamentais ligado à tecnologia:
  1. Liberdade de expressão na internet: Compartilhar opiniões online
  2. Liberdade de pensamento e religião: Como manifestações religiosas ou filosóficas de forma virtual.
@@ -323,10 +349,44 @@ Exemplos de direitos fundamentais ligado à tecnologia:
 - **Direito de Proteção**: Garante a segurança para indivíduos e suas criações, como;
 	- Direitos autorais e propriedade intelectual como a proteção de musicas, livros ou invenções.
 	- Herança digital ditando refente a posso de herdeiros a conta de usuário em sua rede social após a morte do dono.
-- Direito Social:
+- **Direito Social:**
 	- Foca na igualdade e proteção no trabalho: Como por exemplo evitar que algorítimos de recrutamento prejudiquem candidatos com base em preconceitos ou informações injustas.
 - *Resumindo* = Esses direitos ajudam a equilibrar o uso de tecnologia, garantindo uma liberdade e proteção mas também estabelecem limites para evitar abusos.
 ---
 #### Normas programáticas =>
+São regras constitucionais que dizem o que o estado deve fazer para melhorar a sociedade e promover o desenvolvimento, não são especificas mas entregam um plano de ação para o governo seguir.
 
+O que o estado deve fazer mediante a constituição?
+A constituição define obrigações para com o estado como:
+1. Incentiva a ciência, tecnologia e inovação:
+	1. Exemplo: Pode ser criado programas que apoiam pesquisas e tecnologias para a resolução dos problemas no pais.
+2. dar prioridade à pesquisa cientifica:
+	1. Ex: Financiar centros de pesquisas e universidades para avançar em áreas importantes. 
+3. Apoiar empresas e iniciativas tecnológicas:
+	1. Ex: Abertura de startups e criar polos de inovação, como parques tecnológicos.
+---
+##### Emenda Constitucional n°85/2015
+Essa emenda atualizou a constituição para reforça a inovação tecnológica. exigindo ao governo que:
+	Crie Ambiente de inovação => Parcerias com empresas, polos tecnológicos e laboratórios.
+	Promova a transferência tecnológica => Ajuda empresas e instituições a usar e promover seus avanços tecnológicos.
 
+---
+##### Lei da inovação Tecnológica n° 10.974/2004
+
+Essa lei organiza como o governo deve ajudar a inovação e a pesquisa científica. Em 2016, foi alterada para:
+
+- Facilitar a colaboração entre empresas, universidades e o governo.
+- Criar mais incentivos para pesquisa e desenvolvimento.
+- Construir um ambiente favorável para que novas ideias se transformem em tecnologias úteis.
+
+---
+
+##### **Resumo Fácil**
+
+Normas programáticas são "mandamentos" da Constituição para o Estado. Elas dizem que o governo deve:
+
+1. Apoiar a ciência e a inovação.
+2. Financiar pesquisas que ajudem o Brasil.
+3. Incentivar empresas e universidades a inovar juntas.
+
+Tudo isso tem como objetivo criar um ambiente mais tecnológico e inovador para resolver problemas e fazer o país crescer.
