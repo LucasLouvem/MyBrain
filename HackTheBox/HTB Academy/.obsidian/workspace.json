@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules HTB/Bug Bounty Hunting Process.md",
+                "file": "SubTopics/Login Brute Forcing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bug Bounty Hunting Process"
+              "title": "Login Brute Forcing"
             }
           },
           {
@@ -193,10 +193,11 @@
   "active": "c3ba6c0262ff624d",
   "lastOpenFiles": [
     "Basic Toolset.md",
-    "SubTopics/Network Enumeration with Nmap.md",
     "Bug Bounty Hunter.md",
-    "Modules HTB",
+    "SubTopics/Login Brute Forcing.md",
     "Modules HTB/Bug Bounty Hunting Process.md",
+    "SubTopics/Network Enumeration with Nmap.md",
+    "Modules HTB",
     "Bug Bounty Hunter",
     "Modules HTB/Web Requests.md",
     "Modules HTB/Introduction to Web Applications.md",
