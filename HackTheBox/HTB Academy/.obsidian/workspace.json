@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Enumeration with Nmap.md",
+                "file": "SubTopics/Network Enumeration with Nmap.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,8 +49,7 @@
               "title": "Network Enumeration with Nmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,10 +190,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a69a46144c2358d",
+  "active": "c3ba6c0262ff624d",
   "lastOpenFiles": [
     "Basic Toolset.md",
-    "Network Enumeration with Nmap.md",
+    "SubTopics/Network Enumeration with Nmap.md",
     "Bug Bounty Hunter.md",
     "Modules HTB",
     "Modules HTB/Bug Bounty Hunting Process.md",
