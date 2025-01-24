@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "52ff37b0bc823023",
+        "id": "7b0006e688a1db68",
         "type": "tabs",
         "children": [
           {
-            "id": "fddd4333d77fbe6a",
+            "id": "f4f74fe4c2d97131",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -158,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fddd4333d77fbe6a",
+  "active": "f4f74fe4c2d97131",
   "lastOpenFiles": [
+    "googleCourses/Modulo 2/Untitled.md",
     "googleCourses/Welcome.md",
     "googleCourses",
     "HackTheBox/HTB Academy/SubTopics/HTTP.md",
