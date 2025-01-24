@@ -55,7 +55,38 @@ Exemplo Prático:
 ## Sexto Domínio: Avaliação e Teste de Segurança
 
 focado na:
+- Execução de testes de segurança e auditorias
+- Monitoramento contínuo de riscos, ameaças e vulnerabilidades
 
+Exemplo Prático:
+	Auditorias regulares de permissões são comuns. Por exemplo, garantir que apenas funcionários autorizados tenham acesso a informações confidenciais, como salários. O analista revisa as permissões periodicamente para evitar acessos indevidos.
+
+---
+# Sétimo Domínio: Operações de Segurança
+
+Este domínio cobre:
+- Resolução de incidentes de segurança.
+- Implementação de medidas preventivas
+
+Exemplos Práticos:
+	Imagine que um dispositivo desconhecido seja conectado à rede interna. Como analista, você deve identificar rapidamente o dispositivo, seguir os protocolos internos para proteger os sistemas e mitigar qualquer ameaça.
+
+---
+## Oitavo Domínio: Segurança no Desenvolvimento de Software
+
+Este domínio aborda:
+- Práticas de programação seguras para evitar vulnerabilidades nos aplicativos e serviços.
+- Garantir que a segurança esteja incorporada ao ciclo de vida do desenvolvimento de software (SDLC)
+
+Exemplo Prático:
+	Se uma equipe de desenvolvimento estiver criando um novo aplicativo móvel, o analista pode:
+	1. Aconselhar sobre políticas de senha.
+	2. Garantir a proteção dos dados do usuário (armazenamento seguro e gerenciamento correto).
+
+---
+## Resumo Final
+
+Com isso, concluímos os oito domínios de segurança do CISSP. Esses domínios são fundamentais para qualquer organização e formam a base do trabalho de segurança.
 
 ## Importância Geral dos Domínios
 
