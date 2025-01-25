@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b9f2caf63fd46bf4",
+        "id": "53c861a7d3384b2c",
         "type": "tabs",
         "children": [
           {
-            "id": "829d82e304c4e910",
+            "id": "721c79fc75dad57b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Governança de TI e Gestão de TI.md",
+                "file": "Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
                 "mode": "source",
                 "source": false
               },
@@ -162,14 +162,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "829d82e304c4e910",
+  "active": "721c79fc75dad57b",
   "lastOpenFiles": [
-    "Direito Cibernetico/Judiciário.md",
-    "Governança de TI e Gestão de TI.md",
-    "Direito Cibernetico/Legislativo.md",
-    "Direito Cibernetico/Executivo.md",
-    "Gestão de Serviços de TI",
+    "Untitled.md",
+    "Imagem",
+    "Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
+    "Imagem/governança_de_TI.png",
+    "Direito Cibernetico/LGPD.md",
+    "Direito Cibernetico/Marco Civil da Internet.md",
     "Direito Cibernetico/Fundamentos do Direito Cibernético;.md",
+    "Direito Cibernetico/Executivo.md",
+    "Direito Cibernetico/Judiciário.md",
+    "Direito Cibernetico/Legislativo.md",
+    "Gestão de Serviços de TI",
     "constituição.md",
     "Untitled.canvas",
     "Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",

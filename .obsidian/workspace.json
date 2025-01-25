@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7b0006e688a1db68",
+        "id": "54907becd4c60b8b",
         "type": "tabs",
         "children": [
           {
-            "id": "f4f74fe4c2d97131",
+            "id": "214f318cc9712208",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -158,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4f74fe4c2d97131",
+  "active": "214f318cc9712208",
   "lastOpenFiles": [
+    "faculdade/Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
     "googleCourses/Modulo 2/Untitled.md",
     "googleCourses/Welcome.md",
     "googleCourses",
