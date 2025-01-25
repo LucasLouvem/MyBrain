@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bcd7338e5b704d7b",
+            "id": "829d82e304c4e910",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Governança de TI e Gestão de TI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Governança de TI e Gestão de TI"
             }
           }
         ]
@@ -158,12 +162,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcd7338e5b704d7b",
+  "active": "829d82e304c4e910",
   "lastOpenFiles": [
+    "Direito Cibernetico/Judiciário.md",
+    "Governança de TI e Gestão de TI.md",
+    "Direito Cibernetico/Legislativo.md",
+    "Direito Cibernetico/Executivo.md",
+    "Gestão de Serviços de TI",
     "Direito Cibernetico/Fundamentos do Direito Cibernético;.md",
-    "Legislativo.md",
-    "Judiciário.md",
-    "Executivo.md",
     "constituição.md",
     "Untitled.canvas",
     "Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
