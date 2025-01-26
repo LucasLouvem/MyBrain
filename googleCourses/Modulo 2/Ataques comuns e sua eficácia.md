@@ -135,3 +135,5 @@ Como profissional de segurança, é essencial:
 - **Educar continuamente usuários e organizações.**
 - Identificar e gerenciar riscos de **phishing, malware e engenharia social**.
 - Manter-se atualizado com novas táticas e adaptar estratégias de defesa.
+Próximo modulo
+[[Os Oitos domínios de segurança do CISSP]]

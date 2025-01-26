@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agentes de ameaças e hackers.md",
+                "file": "Modulo 2/Compreender os ataques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentes de ameaças e hackers"
+              "title": "Compreender os ataques"
+            }
+          },
+          {
+            "id": "fe169b725cf5fe6d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,17 +173,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48a2193063f1ecc2",
+  "active": "fe169b725cf5fe6d",
   "lastOpenFiles": [
-    "Modulo 2/Determinar os tipos de ataques.md",
-    "Agentes de ameaças e hackers.md",
+    "Modulo 3/Ética na segurança digital.md",
+    "Modulo 3/Proteção de PII.md",
+    "Modulo 3/Introdução a Frameworks e controle de segurança..md",
+    "Modulo 3/Controles, Framework e conformidades.md",
+    "Modulo 3/Design Seguro.md",
+    "Modulo 2/Termos do Glossário Módulo 2.md",
     "Modulo 2/Os Oitos domínios de segurança do CISSP.md",
+    "Modulo 3",
+    "Modulo 2/Compreender os ataques.md",
+    "Modulo 1/Termos do Glossário do Módulo 1.md",
     "Modulo 2/Ataques anteriores a segurança cibernética.md",
-    "Modulo 2/Ataques comuns e sua eficáncia.md",
-    "Modulo 2",
     "Modulo 1/Habilidades para Analistas de Segurança;.md",
     "Modulo 1/Introdução a segurança cibernética.md",
-    "Modulo 1",
-    "Modulo 1/Termos do Glossário do Módulo 1.md"
+    "Modulo 2/Determinar os tipos de ataques.md",
+    "Modulo 2/Ataques comuns e sua eficácia.md",
+    "Modulo 2",
+    "Modulo 1"
   ]
 }

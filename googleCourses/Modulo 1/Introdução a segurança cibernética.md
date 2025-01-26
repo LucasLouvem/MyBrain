@@ -84,3 +84,5 @@ Há muitos termos e conceitos que são importantes para os profissionais de seg
 		- Automação de tarefas repetitivas(Ex, Buscar domínios maliciosos)
 		- Análise do tráfego da web.
 		- Geração de alertas para atividades suspeitas.
+
+Próximo Modulo [[Habilidades para Analistas de Segurança;]]

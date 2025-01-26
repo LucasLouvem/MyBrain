@@ -94,3 +94,6 @@ Manter a segurança de uma organização é um esforço colaborativo, envolvendo
 
 1. Aprender os fundamentos de cada domínio é essencial.
 2. Não é necessário dominar todos, mas ter uma base sólida em cada um ajudará no desenvolvimento profissional.
+
+Próximo Modulo!
+[[Determinar os tipos de ataques]]

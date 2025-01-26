@@ -21,3 +21,5 @@
 **Ator da ameaça:** Qualquer pessoa ou grupo que apresente um Risco à segurança
 
 **Habilidades transferíveis:** Habilidades de outras áreas que podem ser aplicadas a diferentes carreiras
+
+Próximo Modulo [[Ataques anteriores a segurança cibernética]]

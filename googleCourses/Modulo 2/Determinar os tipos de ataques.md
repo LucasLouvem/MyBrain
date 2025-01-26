@@ -60,3 +60,5 @@
 ## Conclusão
 
 Os oitos domínios de segurança do CISSP fornecem uma estrutura para organizar, compreender e mitigar riscos. Reconhecer os tipos de ataques e seus domínios facilita o desenvolvimento de estratégias preventivas e reativas mais eficazes. Além disso, entender esses métodos é essencial para fortalecer a segurança organizacional e reduzir o impacto de violações.
+
+Próximo modulo [[Compreender os ataques]]

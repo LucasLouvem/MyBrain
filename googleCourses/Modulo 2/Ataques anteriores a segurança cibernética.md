@@ -110,3 +110,5 @@ ___
 	- Importância do trabalho:
 		- O impacto da segurança vai além de sistemas e dados: ela protege vidas e privacidades.
 ---
+próximo modulo.
+[[Ataques comuns e sua eficácia]]

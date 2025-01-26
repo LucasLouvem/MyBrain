@@ -91,3 +91,5 @@
 	- Continuar aprendendo e aprimorando suas habilidades é essencial para:
 		- Combater violações e proteger informações.
 		- Criar um ambiente mais seguro para organizações e indivíduos.
+
+Próximo Modulo [[Termos do Glossário do Módulo 1]]
