@@ -33,3 +33,5 @@
 **Governança da segurança:** Práticas que ajudam a apoiar, definir e direcionar os esforços de segurança de uma organização
 
 **Informações sensíveis de identificação pessoal (SPII):** Um tipo específico de PII que se enquadra em diretrizes de manuseio mais rigorosas
+
+Próximo Modulo [[Ferramentas comuns de segurança cibernética]]
