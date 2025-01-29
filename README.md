@@ -12,7 +12,7 @@ Este repositório contém todas as minhas anotações de estudo, organizadas par
 
 🖥️ Desenvolvimento de Software
 
-📜 PHP Moderno
+📜 Programação
 
 🌐 Cloud (Azure e outras plataformas)
 
