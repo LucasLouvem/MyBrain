@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Criar um Portfólio de Segurança Cibernética.md",
+                "file": "Modulo 4/Declaração profissional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Criar um Portfólio de Segurança Cibernética"
+              "title": "Declaração profissional"
             }
           }
         ],
@@ -189,9 +189,10 @@
   },
   "active": "fbe2f2743256afff",
   "lastOpenFiles": [
-    "Usar Ferramentas para proteger as operações comerciais.md",
-    "Criar um Portfólio de Segurança Cibernética.md",
-    "Introdução ao Linux, SQL e Python.md",
+    "Modulo 4/Criar um Portfólio de Segurança Cibernética.md",
+    "Modulo 4/Declaração profissional.md",
+    "Modulo 4/Usar Ferramentas para proteger as operações comerciais.md",
+    "Modulo 4/Introdução ao Linux, SQL e Python.md",
     "Modulo 4/Ferramentas para proteger as operações comerciais.md",
     "Modulo 4/Ferramentas comuns de segurança cibernética.md",
     "Modulo 3/Termos do Glossário Módulo 3.md",

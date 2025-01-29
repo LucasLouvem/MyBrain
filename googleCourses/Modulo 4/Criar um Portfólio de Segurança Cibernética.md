@@ -17,3 +17,5 @@
     - **Análises de segurança** → Exemplo: Auditorias em redes e sistemas.
     - **Incidentes** → Exemplo: Diário de um analista de segurança documentando ameaças.
     - **Certificações e Cursos** → Exemplo: CEH, CompTIA Security+, Hack The Box, TryHackMe.
+
+Próximo Modulo [[Declaração profissional]]
