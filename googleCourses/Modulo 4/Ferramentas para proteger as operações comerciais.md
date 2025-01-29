@@ -73,3 +73,5 @@ O kit de ferramentas de um analista de segurança depende das necessidades espec
 3. **Manuais operacionais:** Garantem padronização e preservação adequada de evidências durante investigações forenses.
 
 Se as investigações forenses interessam a você, considere explorar mais ferramentas e técnicas, como análise de sistemas de arquivos e ferramentas de recuperação de dados. Essas habilidades complementam o trabalho de proteção e resposta a incidentes.
+
+Próximo Modulo [[Introdução ao Linux, SQL e Python]]
