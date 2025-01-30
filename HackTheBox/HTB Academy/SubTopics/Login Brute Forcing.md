@@ -173,3 +173,190 @@ Um invasor quer acessar o sistema de login de uma empresa chamada "TechCorp".
     - Manter sistemas atualizados contra falhas de segurança.
 
 ---
+# Ataque Hibridos
+
+#### **Tópico Principal**: Ataques Híbridos
+
+- **Definição**: Combinação de técnicas de **ataque de dicionário** e **força bruta** para explorar padrões previsíveis de senhas, especialmente em cenários onde os usuários são obrigados a alterar senhas periodicamente.
+### **Resumo**:
+
+- Muitas organizações exigem que os usuários alterem senhas regularmente para aumentar a segurança.
+    
+- No entanto, os usuários tendem a criar padrões previsíveis ao modificar senhas (ex.: adicionar números ou caracteres especiais ao final).
+    
+- Ataques híbridos exploram essa previsibilidade, combinando listas de palavras comuns (dicionário) e variações incrementais (força bruta).
+    
+
+#### **Pontos-Chave**:
+
+1. **Padrões Previsíveis**: Usuários frequentemente alteram senhas de forma incremental (ex.: "Senha2023" → "Senha2024").
+    
+2. **Técnicas Combinadas**:
+    
+    - **Ataque de Dicionário**: Usa listas de senhas comuns.
+        
+    - **Força Bruta Direcionada**: Modifica as senhas do dicionário com variações previsíveis.
+        
+3. **Eficiência**: Reduz o espaço de pesquisa, aumentando as chances de sucesso.
+    
+
+#### **Exemplos**:
+
+- Senha original: "Summer2023".
+    
+- Variações previsíveis: "Summer2023!", "Summer2024", "Summer2024!".
+    
+- Um ataque híbrido testaria essas variações rapidamente.
+    
+
+#### **Ferramentas e Comandos**:
+
+- **Filtragem de Senhas com `grep`**:
+    
+    - Filtrar senhas que atendem a políticas específicas (ex.: mínimo de 8 caracteres, letras maiúsculas/minúsculas, números).
+        
+    - Exemplo de comandos:
+        
+        bash
+        
+        Copy
+        
+        grep -E '^.{8,}$' lista_senhas.txt > senhas_filtradas.txt
+        grep -E '[A-Z]' senhas_filtradas.txt > senhas_maiusculas.txt
+        grep -E '[a-z]' senhas_maiusculas.txt > senhas_minusculas.txt
+        grep -E '[0-9]' senhas_minusculas.txt > senhas_finais.txt
+        
+    - Resultado: Lista reduzida de senhas prováveis.
+        
+
+#### **Links Relacionados**:
+
+- **Ataques de Dicionário**: Técnica que usa listas de senhas comuns.
+    
+- **Força Bruta**: Técnica que testa todas as combinações possíveis.
+    
+- **Políticas de Senha**: Boas práticas para criação de senhas seguras.
+    
+
+---
+
+### **Preenchimento de Credenciais**
+
+#### **Tópico Principal**: Preenchimento de Credenciais (Credential Stuffing)
+
+- **Definição**: Ataque que explora a reutilização de senhas em múltiplas contas, usando credenciais vazadas para obter acesso não autorizado.
+#### **Resumo**:
+
+- Muitos usuários reutilizam senhas em diferentes serviços.
+    
+- Invasores usam listas de credenciais vazadas (de violações de dados ou phishing) para testar em outros serviços.
+    
+- O ataque é automatizado, testando rapidamente várias combinações de usuário/senha.
+
+#### **Pontos-Chave**:
+
+1. **Reutilização de Senhas**: Principal vulnerabilidade explorada.
+    
+2. **Fontes de Credenciais**:
+    
+    - Violações de dados.
+        
+    - Listas públicas (ex.: rockyou.txt, darkweb2017-top10000.txt).
+        
+3. **Alvos Comuns**: Redes sociais, e-mails, bancos online, e-commerce.
+    
+4. **Automatização**: Ferramentas e scripts testam credenciais em massa.
+#### **Exemplos**:
+
+- Um invasor obtém a lista de credenciais "usuario:senha " de um vazamento.
+    
+- Testa essas credenciais em serviços como Gmail, Facebook e PayPal.
+    
+- Se o usuário reutilizou a senha, o invasor ganha acesso.
+#### **Impacto**:
+
+- Roubo de dados pessoais.
+    
+- Fraude financeira.
+    
+- Acesso a sistemas conectados.
+#### **Prevenção**:
+
+- **Senhas Únicas**: Usar senhas diferentes para cada serviço.
+    
+- **Autenticação Multifator (MFA)**: Adicionar uma camada extra de segurança.
+    
+- **Monitoramento de Vazamentos**: Verificar se suas credenciais foram expostas em violações.
+#### **Links Relacionados**:
+
+- **Phishing**: Técnica comum para obter credenciais.
+    
+- **Violações de Dados**: Fonte de credenciais vazadas.
+    
+- **Autenticação Multifator**: Método para mitigar riscos.
+---
+### **Conclusão**
+
+- **Ataques Híbridos**: Exploram padrões previsíveis de senhas, combinando técnicas de dicionário e força bruta.
+    
+- **Preenchimento de Credenciais**: Explora a reutilização de senhas, usando credenciais vazadas para acessar múltiplas contas.
+    
+- **Boas Práticas**:
+    
+    - Evitar padrões previsíveis ao criar senhas.
+        
+    - Nunca reutilizar senhas.
+        
+    - Implementar autenticação multifator.
+---
+# HYDRA
+
+### **O que é o Hydra?**
+
+O **Hydra** é uma ferramenta de força bruta altamente eficiente e flexível, usada para testar a segurança de sistemas de autenticação. Ele suporta uma ampla variedade de protocolos, como HTTP, FTP, RDP, SSH, SMTP, e muitos outros. O Hydra é amplamente utilizado por profissionais de segurança para testar a resistência de senhas e identificar vulnerabilidades em sistemas.
+
+Mais Sobre em [[Hydra]]
+
+---
+
+### **Principais Funcionalidades**:
+
+1. **Ataques de Força Bruta**:
+    
+    - Testa combinações de usuário/senha em massa contra serviços de autenticação.
+        
+    - Pode usar listas de senhas pré-definidas ou gerar senhas automaticamente.
+        
+2. **Suporte a Múltiplos Protocolos**:
+    
+    - Funciona com mais de 50 protocolos, incluindo:
+        
+        - **HTTP/HTTPS**: Para formulários de login em websites.
+            
+        - **FTP**: Para servidores de arquivos.
+            
+        - **SSH**: Para acesso remoto a servidores.
+            
+        - **RDP**: Para conexões de área de trabalho remota no Windows.
+            
+        - **SMTP/POP3/IMAP**: Para servidores de e-mail.
+            
+        - **SMB**: Para compartilhamento de arquivos em redes Windows.
+            
+3. **Personalização de Ataques**:
+    
+    - Permite definir regras para gerar senhas (ex.: comprimento, caracteres permitidos).
+        
+    - Pode testar múltiplos usuários e senhas simultaneamente.
+        
+4. **Alta Velocidade**:
+    
+    - Utiliza múltiplas threads para realizar testes em paralelo, aumentando a velocidade do ataque.
+        
+5. **Integração com Outras Ferramentas**:
+    
+    - Pode ser combinado com ferramentas como **Burp Suite**, **Nmap**, e **Metasploit** para testes de penetração mais avançados.
+        
+
+---
+

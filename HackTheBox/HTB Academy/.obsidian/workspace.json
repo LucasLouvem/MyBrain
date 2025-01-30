@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c7c303012586cf58",
+        "id": "df69313245b631a8",
         "type": "tabs",
         "children": [
           {
-            "id": "c3ba6c0262ff624d",
+            "id": "3b110f7f51849144",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SubTopics/Login Brute Forcing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Login Brute Forcing"
-            }
-          },
-          {
-            "id": "fdd748f4d340a314",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Basic Toolset.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic Toolset"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -176,11 +158,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c3ba6c0262ff624d",
+  "active": "3b110f7f51849144",
   "lastOpenFiles": [
     "Basic Toolset.md",
-    "SubTopics/Network Enumeration with Nmap.md",
     "SubTopics/Login Brute Forcing.md",
+    "Tools/Hydra.md",
+    "Tools",
+    "SubTopics/Network Enumeration with Nmap.md",
     "Bug Bounty Hunter.md",
     "Modules HTB/Bug Bounty Hunting Process.md",
     "Modules HTB",
