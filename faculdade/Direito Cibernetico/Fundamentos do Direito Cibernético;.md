@@ -2,27 +2,149 @@ Antes de iniciar os estudos a faculdade pediu para saber sobre a Lei do [[Marco 
 
 # Modulo 1
 
-## Ciência Cibernética: alguns conceitos;
+## **Conceitos Fundamentais da Ciência Cibernética**
 
-Para começar nos estudos iremos entender a Diferença entre Ciência Informatica e Telemática,
+#### **1. Ciência Informática**:
 
-Informatica => Focada na parte interna dos computadores e na tecnologia da informação, o estudo de como criar programas, apps, ferramentas, ao coisas que utilizamos no computador, e como entender e construir o cérebro do computador.
+- **Definição**: Estuda o armazenamento, processamento e transmissão de informação de forma eletrônica e automatizada.
+    
+- **Origem do Termo**: Criado por Philippe Dreyfus, Karkevitch e Dorfman, derivado da união das palavras "informação" e "automática".
+    
+- **Exemplo Prático**: Desenvolvimento de computadores, que armazenam e processam dados eletronicamente.
+    
 
-Telemática => Focada  em descobrir maneiras de comunicação entre dispositivos, misturando telecomunicação e informatica. Seja através da internet, redes moveis, wirelesses, é como esses dados serão processados, a maneira correta é mais fácil. Seria aprender diversas maneiras de comunicação sobre a como e feita a conversa de um dispositivo para outro.
+#### **2. Ciência Telemática**:
 
-O que seria informação:
+- **Definição**: Foca na transmissão de informação por meios eletrônicos, especialmente a conexão entre dispositivos.
+    
+- **Exemplo Prático**: A internet, que permite a comunicação e troca de dados entre computadores globalmente.
+    
 
-Definição: E o conhecimento que pode ser armazenado e compartilhado, seja por via virtual ou física sendo a base de toda tecnologia. A informação e um conhecimento tocável, podendo ser manipulado, armazenado e compartilhado de diversas maneiras seja no mundo físico como um livro ou virtual como um PDF. 
+#### **3. Informação**:
 
-O que seria um DADO (Em Direitos Cibernéticos):
+- **Definição**: Conhecimento armazenado ou transmitido fisicamente ou virtualmente.
+    
+- **Exemplos**: Imagens, vídeos, textos e dados digitais.
+    
 
-Definição: O peso de um documento em que se encontra no mundo real, Podendo a depender de certas circunstancias, poderá ter o mesmo peso que um documento virtual, e toda informação física armazenada deverá ter a mesma proteção do documento físico, mesmo após se tornar um documento virtual.
+#### **4. Dado**:
 
-Ciência da informação:
+- **Definição**: Representação da informação em meio eletrônico, permitindo seu armazenamento e processamento.
+    
+- **Exemplo**: Um arquivo de texto (.txt) contendo informações digitais.
+    
 
-A ciência da informação consiste no estudo da informação em si. De acordo com [Le Coadic](https://bibliotextos.wordpress.com/wp-content/uploads/2012/07/a-cic3aancia-da-informac3a7c3a3o-le-coadic.pdf) (2004, p. 25), a ciência da informação “tem por objeto o estudo das propriedades gerais da informação (natureza, gênese e efeitos)”. É o estudo da informação em si em todas as suas formas, a informática como o desenvolvimento de mecanismos eletrônicos de armazenamento e processamento dessa informação, como, por exemplo, o computador.
+#### **5. Ciência da Informação**:
 
+- **Definição**: Estudo da informação em todas as suas formas, incluindo sua natureza, gênese e efeitos.
+    
+- **Exemplo**: Pesquisas sobre como as informações são organizadas, armazenadas e recuperadas em bancos de dados.
+    
 
+#### **6. Cibernética**:
+
+- **Definição**: Ciência que abrange a informática, a telemática e a ciência da informação, focando no controle e comunicação entre máquinas.
+    
+- **Origem Histórica**: Surgiu durante a Revolução Industrial, com o desenvolvimento de máquinas autônomas.
+    
+- **Exemplo Prático**: Sistemas de automação industrial, onde máquinas controlam outras máquinas.
+    
+
+---
+
+### **Relação entre Cibernética, Informática e Telemática**:
+
+- **Cibernética**: Controla e gerencia a comunicação entre máquinas.
+    
+- **Informática**: Desenvolve mecanismos para armazenar e processar informações.
+    
+- **Telemática**: Facilita a transmissão de informações entre dispositivos.
+    
+- **Exemplo Integrado**: Um sistema de IoT (Internet das Coisas), onde sensores (informática) coletam dados, que são transmitidos via internet (telemática) e processados por algoritmos (cibernética).
+    
+
+---
+
+### **Direito Digital e Tecnologias da Informação**:
+
+#### **Impacto das Tecnologias da Informação no Direito**:
+
+- **Alterações nos Textos Legislativos**:
+    
+    - Exemplos no Brasil: Marco Civil da Internet (Lei n. 12.965/2014) e Lei Geral de Proteção de Dados (LGPD - Lei n. 13.709/2018).
+        
+    - **Exemplo Prático**: A LGPD regula o tratamento de dados pessoais, exigindo transparência e consentimento dos usuários.
+        
+- **Mudanças na Interpretação Normativa**:
+    
+    - **Exemplo**: Decisões judiciais sobre a penhora de criptoativos ou a natureza jurídica das relações em redes sociais.
+        
+- **Inovações no Sistema Judiciário**:
+    
+    - **Juízo 100% Digital**: Implementado pelo Tribunal de Justiça do Rio de Janeiro (TJRJ), permite a realização de audiências e atos processuais totalmente online.
+        
+    - **Exemplo**: Audiências por videoconferência, com validade jurídica equivalente às presenciais.
+        
+
+---
+
+### **Desafios e Perguntas no Direito Digital**:
+
+1. **Penhora de Criptoativos**:
+    
+    - Como penhorar bens digitais como Bitcoin, que não têm existência física?
+        
+2. **Natureza Jurídica das Redes Sociais**:
+    
+    - Qual é a relação jurídica entre usuários e plataformas como Facebook ou Instagram?
+        
+3. **Propriedade Intelectual e Domínios de Internet**:
+    
+    - Criar um domínio semelhante a uma marca registrada viola direitos autorais?
+        
+4. **Crimes Cibernéticos**:
+    
+    - A obtenção não autorizada de dados configura furto? Como aplicar conceitos tradicionais do Direito Penal ao ambiente digital?
+        
+5. **Atos Libidinosos Remotos**:
+    
+    - A prática de atos libidinosos via webcam pode ser enquadrada como estupro?
+        
+
+---
+
+### **Exemplos Práticos**:
+
+6. **Marco Civil da Internet**:
+    
+    - Estabelece princípios como neutralidade da rede e privacidade dos usuários.
+        
+    - **Caso Prático**: Provedores de internet não podem priorizar o tráfego de determinados sites em detrimento de outros.
+        
+7. **Lei Geral de Proteção de Dados (LGPD)**:
+    
+    - Regulamenta o tratamento de dados pessoais por empresas e governos.
+        
+    - **Caso Prático**: Uma empresa que vaza dados de clientes pode ser multada em até 2% de seu faturamento.
+        
+8. **Juízo 100% Digital**:
+    
+    - Permite a resolução de conflitos de forma totalmente online.
+        
+    - **Caso Prático**: Um processo de execução fiscal pode ser conduzido inteiramente por meio eletrônico, desde a citação até a decisão final.
+        
+
+---
+
+### **Conclusão**:
+
+- A **cibernética** é a ciência que integra a **informática** e a **telemática**, permitindo o controle e a comunicação entre máquinas.
+    
+- As **tecnologias da informação** transformam não apenas o Direito, mas toda a sociedade, exigindo adaptações legislativas e novas interpretações jurídicas.
+    
+- O **Direito Digital** surge como um campo essencial para regular os desafios trazidos pela era digital, como a proteção de dados e a resolução de conflitos online.
+
+---
 ## Como é a relação entre o Direito e as tecnologias da informação?;
 
 As tecnologias da informação alteram profundamente as estruturas sociais e não apenas o Direito, que é influenciado direta ou indiretamente. o que essa frase significa;
@@ -61,7 +183,7 @@ As **tecnologias da informação** mudaram a maneira como pensamos, entendemos e
 
 ### **Pontos importantes explicados:**
 
-1. **A sociedade muda, e o pensamento humano acompanha.**
+9. **A sociedade muda, e o pensamento humano acompanha.**
     
     - As tecnologias mudam a forma como vivemos, nos relacionamos e resolvemos problemas.
     - Como os estudiosos e profissionais fazem parte dessa sociedade, o jeito deles de pensar e interpretar também muda.
@@ -71,7 +193,7 @@ As **tecnologias da informação** mudaram a maneira como pensamos, entendemos e
 
 ---
 
-2. **As tecnologias afetam dois aspectos principais nos conflitos sociais:**
+10. **As tecnologias afetam dois aspectos principais nos conflitos sociais:**
     - **1. Como as decisões são feitas e interpretadas:**
         
         - Agora, as decisões precisam levar em conta as mudanças trazidas pela tecnologia.
@@ -98,11 +220,11 @@ As tecnologias da informação não só mudam a maneira como pensamos e agimos n
 
 ### **Divisão entre dois grupos principais**
 
-1. **Doutrina (pesquisa e teoria):**
+11. **Doutrina (pesquisa e teoria):**
     
     - Esse grupo (como pesquisadores e acadêmicos) interpreta as leis com base em estudo, curiosidade ou até motivos comerciais.
     - **Exemplo:** Um professor de Direito escreve um artigo sobre como a LGPD pode impactar contratos de trabalho para ganhar reconhecimento ou vender consultorias.
-2. **Intérpretes normativos (prática jurídica):**
+12. **Intérpretes normativos (prática jurídica):**
     
     - Juízes, conciliadores, árbitros ou advogados precisam aplicar as leis em situações reais (ou prever como aplicá-las no futuro).
     - **Exemplo:** Um juiz decide um caso onde um aplicativo usou dados pessoais de forma ilegal, interpretando as leis de proteção de dados.
@@ -138,8 +260,8 @@ Essas mudanças trazem debates importantes, como:
 
 As tecnologias da informação mudam:
 
-1. **O que os estudiosos (doutrina) pensam sobre as leis.**
-2. **Como os profissionais (juízes, advogados) aplicam as leis.**
+13. **O que os estudiosos (doutrina) pensam sobre as leis.**
+14. **Como os profissionais (juízes, advogados) aplicam as leis.**
 
 O maior impacto está nos **fatos concretos** que a tecnologia transforma, criando debates complexos e novos desafios para o Direito acompanhar.
 
@@ -178,19 +300,19 @@ Proteger a liberdade e garantis os limites do poder do Estado, tanto em relaçã
 
 Os diretos fundamentais podem ser divididos em camadas, baseado com a maneira conforme foram evoluindo, sendo classificados em 1°,2°,3° e 4° dimensão.
 
-1. **Primeira dimensão: Direitos individuais (ou humanos positivados)**
+15. **Primeira dimensão: Direitos individuais (ou humanos positivados)**
     
     - São direitos ligados à liberdade.
     - Exemplo: Liberdade de expressão, direito à vida, e proteção contra abusos do governo.
-2. **Segunda dimensão: Direitos sociais**
+16. **Segunda dimensão: Direitos sociais**
     
     - Garantem igualdade e ajudam as pessoas a ter condições de vida digna.
     - Exemplo: Direito à educação, saúde, trabalho e moradia.
-3. **Terceira dimensão: Direitos coletivos**
+17. **Terceira dimensão: Direitos coletivos**
     
     - Protegem grupos e o bem comum.
     - Exemplo: Direito ao meio ambiente saudável, proteção do consumidor.
-4. **Quarta dimensão: Novos direitos tecnológicos e globais**
+18. **Quarta dimensão: Novos direitos tecnológicos e globais**
     
     - Lidam com desafios modernos e avanços da tecnologia.
     - Exemplo: Direito à privacidade digital e à proteção de dados pessoais.
@@ -220,11 +342,11 @@ São regras constitucionais que dizem o que o estado deve fazer para melhorar a 
 
 O que o estado deve fazer mediante a constituição?
 A constituição define obrigações para com o estado como:
-1. Incentiva a ciência, tecnologia e inovação:
+19. Incentiva a ciência, tecnologia e inovação:
 	1. Exemplo: Pode ser criado programas que apoiam pesquisas e tecnologias para a resolução dos problemas no pais.
-2. dar prioridade à pesquisa cientifica:
+20. dar prioridade à pesquisa cientifica:
 	1. Ex: Financiar centros de pesquisas e universidades para avançar em áreas importantes. 
-3. Apoiar empresas e iniciativas tecnológicas:
+21. Apoiar empresas e iniciativas tecnológicas:
 	1. Ex: Abertura de startups e criar polos de inovação, como parques tecnológicos.
 ---
 ##### Emenda Constitucional n°85/2015
@@ -247,8 +369,8 @@ Essa lei organiza como o governo deve ajudar a inovação e a pesquisa científi
 
 Normas programáticas são "mandamentos" da Constituição para o Estado. Elas dizem que o governo deve:
 
-1. Apoiar a ciência e a inovação.
-2. Financiar pesquisas que ajudem o Brasil.
-3. Incentivar empresas e universidades a inovar juntas.
+22. Apoiar a ciência e a inovação.
+23. Financiar pesquisas que ajudem o Brasil.
+24. Incentivar empresas e universidades a inovar juntas.
 
 Tudo isso tem como objetivo criar um ambiente mais tecnológico e inovador para resolver problemas e fazer o país crescer.

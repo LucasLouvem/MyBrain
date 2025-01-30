@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "f966c390515a4b83",
+    "id": "b05ea47b3795257a",
     "type": "split",
     "children": [
       {
-        "id": "afa2ea1bead3d982",
+        "id": "1431015857cbcfc1",
         "type": "tabs",
         "children": [
           {
-            "id": "8921c507c74b1508",
+            "id": "73a05dc68a4aade0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Fundamentos do Direito Cibernético;.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fundamentos do Direito Cibernético;"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d456180c9a0384f1",
+    "id": "06debb4ac36ccd33",
     "type": "split",
     "children": [
       {
-        "id": "8c7529a127a007b2",
+        "id": "c1818170665a699f",
         "type": "tabs",
         "children": [
           {
-            "id": "d67e5fda530a27ae",
+            "id": "587b8a8e8d4ba22f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "49e37390f957178e",
+            "id": "04492bec0c7f292e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "ac2253f0cb2d3845",
+            "id": "322090d521fbf4be",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "9bf0f228dfa185e8",
+    "id": "6cd5d63c4738edce",
     "type": "split",
     "children": [
       {
-        "id": "db6ce5711cccbb04",
+        "id": "7ce45b7df6069467",
         "type": "tabs",
         "children": [
           {
-            "id": "dab28b7c13d63921",
+            "id": "a0b40d76cce3102b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "Fundamentos do Direito Cibernético;.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for O que é Hardware;"
+              "title": "Backlinks for Fundamentos do Direito Cibernético;"
             }
           },
           {
-            "id": "fe3dda205ffd9aaf",
+            "id": "25c31e37ebc963f5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "Fundamentos do Direito Cibernético;.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from O que é Hardware;"
+              "title": "Outgoing links from Fundamentos do Direito Cibernético;"
             }
           },
           {
-            "id": "afe3fa27d3eccb64",
+            "id": "948ccb3300b9d714",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "1d13bfeb2353223f",
+            "id": "2f0dc38bf9971a1c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Starting/O que é Hardware;.md"
+                "file": "Fundamentos do Direito Cibernético;.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of O que é Hardware;"
+              "title": "Outline of Fundamentos do Direito Cibernético;"
             }
           }
         ]
@@ -159,30 +168,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8921c507c74b1508",
-  "lastOpenFiles": [
-    "googleCourses/Modulo 3/Termos do Glossário Módulo 3.md",
-    "googleCourses/Modulo 4",
-    "googleCourses/Modulo 3/Ética em Segurança da Informação.md",
-    "googleCourses/Modulo 3/Ética na segurança digital.md",
-    "googleCourses/Modulo 3/Proteção de PII.md",
-    "roadmap/Fundamentos IT skills/Hardware/1° O que é Hardware.md",
-    "faculdade/Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
-    "googleCourses/Modulo 2/Untitled.md",
-    "googleCourses/Welcome.md",
-    "googleCourses",
-    "HackTheBox/HTB Academy/SubTopics/HTTP.md",
-    "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
-    "roadmap/Fundamentos IT skills/Placa mãe.md",
-    "roadmap/Fundamentos IT skills/O que é Hardware;.md",
-    "roadmap/Fundamentos IT skills/README.md",
-    "roadmap/Fundamentos IT skills",
-    "roadmap/Untitled",
-    "faculdade/Direito Cibernetico/Fundamentos do Direito Cibernético;.md",
-    "faculdade/Direito Cibernetico",
-    "faculdade",
-    "roadmap/O que é Hardware;.md",
-    "Placa mãe.md",
-    "O que é Hardware; 1.md"
-  ]
+  "active": "73a05dc68a4aade0",
+  "lastOpenFiles": []
 }
