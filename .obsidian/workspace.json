@@ -11,10 +11,14 @@
             "id": "8921c507c74b1508",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "HackTheBox/HTB Academy/SubTopics/cURL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cURL"
             }
           }
         ]
@@ -159,12 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d67e5fda530a27ae",
+  "active": "8921c507c74b1508",
   "lastOpenFiles": [
+    "HackTheBox/HTB Academy/SubTopics/FTP.md",
+    "HackTheBox/HTB Academy/SubTopics/DNS.md",
+    "HackTheBox/HTB Academy/Modules HTB/Login Brute Forcing.md",
     "Programming/python/listRide.py",
     "Programming/python",
-    "HackTheBox/HTB Academy/SubTopics/FTP.md",
-    "HackTheBox/HTB Academy/Modules HTB/Login Brute Forcing.md",
     "HackTheBox/HTB Academy/SubTopics/SSH.md",
     "HackTheBox/HTB Academy/Modules HTB/Network Enumeration with Nmap.md",
     "HackTheBox/HTB Academy/Tools/Medusa.md",
