@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "f966c390515a4b83",
+    "id": "dac6ec0b7fbcf19a",
     "type": "split",
     "children": [
       {
-        "id": "afa2ea1bead3d982",
+        "id": "c8ddbad3f944af26",
         "type": "tabs",
         "children": [
           {
-            "id": "8921c507c74b1508",
+            "id": "16d6dfeb1ca8fbbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "googleCourses/Curso 2/Ameaças, riscos e vulnerabilidades.md",
+                "file": "HTB Academy/SubTopics/Login Brute Forcing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ameaças, riscos e vulnerabilidades"
+              "title": "Login Brute Forcing"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d456180c9a0384f1",
+    "id": "df065570742e9cae",
     "type": "split",
     "children": [
       {
-        "id": "8c7529a127a007b2",
+        "id": "b44df846eb97f31b",
         "type": "tabs",
         "children": [
           {
-            "id": "d67e5fda530a27ae",
+            "id": "b0fbc794a2aada43",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "49e37390f957178e",
+            "id": "c2816b2e77716f40",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "ac2253f0cb2d3845",
+            "id": "3db03b12c5f56d80",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "9bf0f228dfa185e8",
+    "id": "78ae7d4f70f1caf9",
     "type": "split",
     "children": [
       {
-        "id": "db6ce5711cccbb04",
+        "id": "e7120891c0cfed31",
         "type": "tabs",
         "children": [
           {
-            "id": "dab28b7c13d63921",
+            "id": "b15d6bab6e2b67b7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "HTB Academy/SubTopics/Login Brute Forcing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for O que é Hardware;"
+              "title": "Backlinks for Login Brute Forcing"
             }
           },
           {
-            "id": "fe3dda205ffd9aaf",
+            "id": "fa3eaee74259a475",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "HTB Academy/SubTopics/Login Brute Forcing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from O que é Hardware;"
+              "title": "Outgoing links from Login Brute Forcing"
             }
           },
           {
-            "id": "afe3fa27d3eccb64",
+            "id": "ca71a06c665a4d8b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "1d13bfeb2353223f",
+            "id": "6b5a569e51d2a9ff",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Starting/O que é Hardware;.md"
+                "file": "HTB Academy/SubTopics/Login Brute Forcing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of O que é Hardware;"
+              "title": "Outline of Login Brute Forcing"
             }
           }
         ]
@@ -163,36 +168,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8921c507c74b1508",
+  "active": "16d6dfeb1ca8fbbc",
   "lastOpenFiles": [
-    "googleCourses/Curso 2/Os 8 Dominios.md",
-    "googleCourses/Curso 2/Ameaças, riscos e vulnerabilidades.md",
-    "googleCourses/Curso 1/Modulo 2/Os Oitos domínios de segurança do CISSP.md",
-    "googleCourses/Curso 1/Modulo 2/Determinar os tipos de ataques.md",
-    "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
-    "codes/listRide.py",
-    "codes",
-    "googleCourses/Modulo 3/Termos do Glossário Módulo 3.md",
-    "googleCourses/Modulo 4",
-    "googleCourses/Modulo 3/Ética em Segurança da Informação.md",
-    "googleCourses/Modulo 3/Ética na segurança digital.md",
-    "googleCourses/Modulo 3/Proteção de PII.md",
-    "roadmap/Fundamentos IT skills/Hardware/1° O que é Hardware.md",
-    "faculdade/Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
-    "googleCourses/Modulo 2/Untitled.md",
-    "googleCourses/Welcome.md",
-    "googleCourses",
-    "HackTheBox/HTB Academy/SubTopics/HTTP.md",
-    "roadmap/Fundamentos IT skills/Placa mãe.md",
-    "roadmap/Fundamentos IT skills/O que é Hardware;.md",
-    "roadmap/Fundamentos IT skills/README.md",
-    "roadmap/Fundamentos IT skills",
-    "roadmap/Untitled",
-    "faculdade/Direito Cibernetico/Fundamentos do Direito Cibernético;.md",
-    "faculdade/Direito Cibernetico",
-    "faculdade",
-    "roadmap/O que é Hardware;.md",
-    "Placa mãe.md",
-    "O que é Hardware; 1.md"
+    "HTB Academy/Basic Toolset.md"
   ]
 }
