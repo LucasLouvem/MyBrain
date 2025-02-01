@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/SubTopics/Login Brute Forcing.md",
+                "file": "HTB Academy/Basic Toolset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Login Brute Forcing"
+              "title": "Basic Toolset"
             }
           }
         ]
@@ -170,6 +170,13 @@
   },
   "active": "16d6dfeb1ca8fbbc",
   "lastOpenFiles": [
-    "HTB Academy/Basic Toolset.md"
+    "HTB Academy/SubTopics/FTP.md",
+    "HTB Academy/SubTopics/SSH.md",
+    "HTB Academy/Modules HTB/Network Enumeration with Nmap.md",
+    "HTB Academy/Modules HTB/Login Brute Forcing.md",
+    "HTB Academy/SubTopics/Login Brute Forcing.md",
+    "HTB Academy/Basic Toolset.md",
+    "HTB Academy/Tools/Medusa.md",
+    "HTB Academy/Tools/Hydra.md"
   ]
 }

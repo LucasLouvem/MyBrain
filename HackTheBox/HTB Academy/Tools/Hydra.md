@@ -125,14 +125,14 @@ hydra -L usuarios.txt -P passwords.txt ftp://192.168.1.100
 
 ---
 
-### **Considerações de Segurança**:
+**Considerações de Segurança**:
 
-- **Legalidade**: Só use o Hydra em sistemas onde você tem permissão explícita para testar a segurança.
+Legalidade: Só use o Hydra em sistemas onde você tem permissão explícita para testar a segurança.
     
-- **Proteção Contra Ataques**:
+Proteção Contra Ataques
     
-    - **Senhas Fortes**: Use senhas longas e complexas.
+    Senhas Fortes: Use senhas longas e complexas.
         
-    - **Limite de Tentativas**: Configure sistemas para bloquear após várias tentativas de login falhas.
+    Limite de Tentativas: Configure sistemas para bloquear após várias tentativas de login falhas.
         
-    - **Autenticação Multifator (MFA)**: Adicione uma camada extra de segurança.
+    Autenticação Multifator (MFA): Adicione uma camada extra de segurança.
