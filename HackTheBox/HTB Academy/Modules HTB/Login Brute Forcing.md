@@ -591,3 +591,90 @@ Este cenário ilustra como credenciais fracas podem ser exploradas. Para se prot
 - Substitua o **FTP tradicional por SFTP** (FTP sobre SSH) para criptografar credenciais.
 
 Esse módulo destaca a necessidade de segurança reforçada em serviços web, protegendo sistemas contra ataques automatizados.
+
+---
+# Custom Word lists
+#### **Wordlists Personalizadas (Custom Wordlists)**
+
+- Listas padrão como **rockyou** e **SecLists** são amplas, mas podem ser **ineficientes** para alvos específicos.
+- Para aumentar a eficiência, é melhor **criar wordlists personalizadas** com base no contexto do alvo.
+- Exemplo: Se o alvo é "Thomas Edison", uma wordlist genérica pode não conter o nome correto. Criar uma lista baseada nas convenções da empresa aumenta as chances de sucesso.
+
+#### **Username Anarchy (Geração de Nomes de Usuário)**
+
+- **Usernames são imprevisíveis** e podem conter variações como:
+    - Nome + Sobrenome (janesmith, smithjane, jane.smith)
+    - Abreviações e iniciais (js, j.s., s.j.)
+    - Leetspeak (j4n3, 5m1th)
+    - Elementos pessoais (hobbies, ano de nascimento, apelidos)
+- Ferramenta **Username Anarchy** automatiza a criação de nomes de usuário possíveis.
+- **Instalação e uso:**
+    
+    bash
+    
+    CopyEdit
+    
+    `sudo apt install ruby -y git clone https://github.com/urbanadventurer/username-anarchy.git cd username-anarchy ./username-anarchy Jane Smith > jane_smith_usernames.txt`
+    
+- Saída: Uma lista extensa de usernames combinando padrões comuns e personalizações.
+
+#### **CUPP (Common User Passwords Profiler)**
+
+- Foca na criação de **wordlists de senhas personalizadas** baseadas em informações do alvo.
+- Usa **OSINT** (redes sociais, registros públicos, blogs) para coletar dados.
+- **Exemplo de perfil de alvo:**
+    - Nome: Jane Smith
+    - Apelido: Janey
+    - Data de nascimento: 11/12/1990
+    - Namorado: Jim (apelido: Jimbo)
+    - Pet: Spot
+    - Empresa: AHI
+    - Interesses: Hacking, pizza, golfe
+- **Saída do CUPP:**
+    - jane, Jane, j4n3
+    - jane1990, janey1990, smith1990
+    - jane!, janesmith123, janesmith!
+    - smith2708, janesmith@2024
+    - j4n3_1990, 5m1th!
+
+#### **Conclusão**
+
+- Criar **wordlists personalizadas** com Username Anarchy e CUPP aumenta a eficiência dos ataques de força bruta.
+- **Username Anarchy** gera variações de nomes de usuário.
+- **CUPP** gera listas de senhas altamente relevantes com base no perfil do alvo.
+- Combinar essas técnicas **economiza tempo e aumenta as chances de sucesso** em ataques de senha.
+---
+# Skills Assessment I and II
+
+Aqui foi pedido para confirmar seu aprendizado, apos fornecer uma lista de senha e usuários,  foi feito um ataque com hydra na paginá web com o seguinte comando 
+```
+hydra -L top-usernames-shortlist.txt -P 2023-200_most_used_passwords.txt <IP> http-get / -s <Port>
+
+```
+me fornecendo as credenciais após o acesso a pagina, foi me entregue um usuário chamado <satwossh> onde terminamos a parte 1.
+
+Na parte 2, precisamos descobri a senha do usuário encontrado no ultimo (satwossh) para conexão ssh, então rodamos o comando.
+
+	hydra -l satwossh -P <wordlist.txt> ssh://<IP> -s <PORT>
+
+A senha encontrada foi password1, após a conexão via ssh com o user e pass, podemos utilizar 
+
+	ssh satwossh@<IP> -p <PORT>
+
+caso o serviço esteja rodando na porta padrão não e necessário especificar a porta, porém não e o caso nessa aula.
+
+Após se conectar podemos ver um arquivo txt de reporte de incidente onde diz que o usuário thomas smith teve um comportamento suspeito em uma atividade FTP, com esse nome podemos usar a ferramenta "Anarchy" para gerar nomes de usuario para tentar quebrar a senha utilizando
+
+	./username-anarchy thomas smith > nomes.txt
+
+gerando um arquivos com variações dos nomes, vamos procurar por sua senha no servidor FTP, utilizando o hydra para descobrir sua senha e estando na mesma rede que o usuário, colocamos.
+
+	hydra -L nomes.txt -P passwords.txt ftp://localhost
+
+Descobrindo que a senha do usuario e "chocolate!", podemos acessar seu servidor FTP com 
+
+	ftp localhost
+
+Vai pedir o usuário e senha, após inserir ambos temos acesso e podemos pegar a flag para a resposta do exercício.
+
+

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c8ddbad3f944af26",
+        "id": "1c271a8aac4c0dab",
         "type": "tabs",
         "children": [
           {
-            "id": "16d6dfeb1ca8fbbc",
+            "id": "17e24e32192dc413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/Basic Toolset.md",
+                "file": "HTB Academy/Modules HTB/Login Brute Forcing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Toolset"
+              "title": "Login Brute Forcing"
             }
           }
         ]
@@ -168,15 +168,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "16d6dfeb1ca8fbbc",
+  "active": "17e24e32192dc413",
   "lastOpenFiles": [
+    "HTB Academy/Tools/Hydra.md",
+    "HTB Academy/Modules HTB/Login Brute Forcing.md",
+    "HTB Academy/Basic Toolset.md",
+    "HTB Academy/Bug Bounty Hunter.md",
     "HTB Academy/SubTopics/FTP.md",
+    "HTB Machines/Dancing(Very Easy).md",
+    "HTB Machines/Redeemer(Very Easy).md",
+    "HTB Academy/SubTopics/RDP.md",
+    "HTB Academy/SubTopics/SMB.md",
+    "HTB Machines/Explosion (Very Easy).md",
+    "HTB Academy/SubTopics/Redis.md",
+    "HTB Machines/Fawn(Very Easy).md",
+    "HTB Machines/Meow(Very Easy).md",
+    "HTB Machines/TwoMillion.md",
+    "HTB Academy/SubTopics/TELNET.md",
+    "telnet.md",
+    "HTB Machines/Images/Pasted image 20250119003534.png",
+    "HTB Machines/Images",
     "HTB Academy/SubTopics/SSH.md",
     "HTB Academy/Modules HTB/Network Enumeration with Nmap.md",
-    "HTB Academy/Modules HTB/Login Brute Forcing.md",
     "HTB Academy/SubTopics/Login Brute Forcing.md",
-    "HTB Academy/Basic Toolset.md",
-    "HTB Academy/Tools/Medusa.md",
-    "HTB Academy/Tools/Hydra.md"
+    "HTB Academy/Tools/Medusa.md"
   ]
 }

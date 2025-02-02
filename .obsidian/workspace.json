@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "afa2ea1bead3d982",
+        "id": "d89acf85f3f9c28c",
         "type": "tabs",
         "children": [
           {
-            "id": "8921c507c74b1508",
+            "id": "d6113ec38e63df13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HackTheBox/HTB Academy/SubTopics/cURL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "cURL"
+              "title": "New tab"
             }
           }
         ]
@@ -163,43 +159,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8921c507c74b1508",
+  "active": "d6113ec38e63df13",
   "lastOpenFiles": [
+    "HackTheBox/HTB Academy/Modules HTB/Login Brute Forcing.md",
+    "HackTheBox/HTB Machines/Redeemer(Very Easy).md",
+    "HackTheBox/HTB Machines/Redeemer.md",
+    "HackTheBox/HTB Machines/Dancing(Very Easy).md",
+    "HackTheBox/HTB Academy/SubTopics/Redis.md",
+    "HackTheBox/Redis.md",
+    "HackTheBox/Redeemer.md",
+    "HackTheBox/redeemer.md",
+    "HackTheBox/Untitled.md",
+    "HackTheBox/HTB Machines/Dancing.md",
+    "HackTheBox/HTB Academy/SubTopics/SMB.md",
+    "HackTheBox/SMB.md",
+    "HackTheBox/Dancing.md",
+    "HackTheBox/HTB Machines/Fawn(Very Easy).md",
+    "HackTheBox/Fawn(Very Easy).md",
+    "HackTheBox/F.md",
+    "HackTheBox/HTB Academy/SubTopics/TELNET.md",
+    "HackTheBox/TELNET.md",
+    "HackTheBox/telnet.md",
+    "HackTheBox/HTB Machines/Meow(Very Easy).md",
+    "HackTheBox/Meow(Very Easy).md",
+    "HackTheBox/Meow.md",
+    "HackTheBox/HTB Machines/Images/Pasted image 20250119003534.png",
+    "HackTheBox/HTB Machines/Images",
+    "HackTheBox/HTB Academy/SubTopics/cURL.md",
     "HackTheBox/HTB Academy/SubTopics/FTP.md",
     "HackTheBox/HTB Academy/SubTopics/DNS.md",
-    "HackTheBox/HTB Academy/Modules HTB/Login Brute Forcing.md",
     "Programming/python/listRide.py",
     "Programming/python",
     "HackTheBox/HTB Academy/SubTopics/SSH.md",
-    "HackTheBox/HTB Academy/Modules HTB/Network Enumeration with Nmap.md",
-    "HackTheBox/HTB Academy/Tools/Medusa.md",
-    "googleCourses/Glossário Geral.md",
-    "googleCourses/Curso 2/Os 8 Dominios.md",
-    "googleCourses/Curso 2/Ameaças, riscos e vulnerabilidades.md",
-    "googleCourses/Curso 1/Modulo 2/Os Oitos domínios de segurança do CISSP.md",
-    "googleCourses/Curso 1/Modulo 2/Determinar os tipos de ataques.md",
-    "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
     "Programming/listRide.py",
     "Programming",
-    "googleCourses/Modulo 3/Termos do Glossário Módulo 3.md",
     "googleCourses/Modulo 4",
-    "googleCourses/Modulo 3/Ética em Segurança da Informação.md",
-    "googleCourses/Modulo 3/Ética na segurança digital.md",
-    "googleCourses/Modulo 3/Proteção de PII.md",
-    "roadmap/Fundamentos IT skills/Hardware/1° O que é Hardware.md",
-    "faculdade/Gestão de Serviços de TI/Governança de TI e Gestão de TI.md",
-    "googleCourses/Modulo 2/Untitled.md",
-    "googleCourses/Welcome.md",
     "googleCourses",
-    "HackTheBox/HTB Academy/SubTopics/HTTP.md",
-    "roadmap/Fundamentos IT skills/Placa mãe.md",
-    "roadmap/Fundamentos IT skills/O que é Hardware;.md",
-    "roadmap/Fundamentos IT skills/README.md",
     "roadmap/Fundamentos IT skills",
     "roadmap/Untitled",
-    "faculdade/Direito Cibernetico/Fundamentos do Direito Cibernético;.md",
-    "faculdade/Direito Cibernetico",
-    "faculdade",
-    "roadmap/O que é Hardware;.md"
+    "faculdade/Direito Cibernetico"
   ]
 }
