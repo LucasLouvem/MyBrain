@@ -142,4 +142,4 @@ Este texto aborda a importância do **gerenciamento de riscos** na segurança 
     
 - **Resposta**: Investigar e corrigir vulnerabilidades rapidamente para minimizar o impacto de possíveis ataques.
 
-Próximo Modulo [[Termos do glossário do Módulo 1 Curso 2]]
+Próximo Modulo [[Termos do glossário do Curso 2, Módulo 1]]
