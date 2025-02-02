@@ -34,10 +34,8 @@ Tenho uma mentalidade de aprendizado contínuo, buscando sempre me atualizar e d
 
 Clone o repositório:
 
-bash
-Copy
-Edit
 git clone https://github.com/LucasLouvem/MyBrain.git
+
 Abra o repositório no Obsidian como um vault.
 
 Utilize as ligações internas e tags para navegar pelos conteúdos.
