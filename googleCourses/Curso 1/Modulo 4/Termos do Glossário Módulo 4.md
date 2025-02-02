@@ -25,3 +25,7 @@
 **Gerenciamento de eventos e informações de segurança (SIEM)**: Um aplicativo que coleta e analisa dados de registros para monitorar atividades críticas em uma organização
 
 **SQL (Linguagem de consulta estruturada):** Linguagem de consulta usada para criar, interagir e solicitar informações de um banco de dados
+
+Próximo Modulo [[Os 8 Dominios]]
+
+

@@ -4,67 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4eaaf6ecfc1dc9ab",
+        "id": "e56c083bfc3c0121",
         "type": "tabs",
         "children": [
           {
-            "id": "48a2193063f1ecc2",
+            "id": "6d5f388f94fa7f5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modulo 2/Compreender os ataques.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Compreender os ataques"
-            }
-          },
-          {
-            "id": "fe169b725cf5fe6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curso 1/Modulo 4/Termos do Glossário Módulo 4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Termos do Glossário Módulo 4"
-            }
-          },
-          {
-            "id": "4c825baea5e92b25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curso 2/Modulo 1/Os 8 Dominios.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Os 8 Dominios"
-            }
-          },
-          {
-            "id": "ff2c79af968c8912",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curso 2/Modulo 1/Os 8 Dominios.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Os 8 Dominios"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,24 +159,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff2c79af968c8912",
+  "active": "6d5f388f94fa7f5a",
   "lastOpenFiles": [
-    "Curso 2/Modulo 1/Ameaças, riscos e vulnerabilidades.md",
+    "Curso 2/Modulo 2/Relação entre Frameworks e Controles.md",
+    "Curso 2/Modulo 2/As Cinco Funções Principais do NIST CSF.md",
+    "Curso 2/Modulo 2/OWASP security principles.md",
+    "Curso 2/Modulo 2/Tríade CIA.md",
+    "Curso 2/Modulo 2/Controles.md",
+    "Curso 2/Modulo 2/Frameworks de Segurança.md",
     "Curso 2/Modulo 1/Termos do glossário do Módulo 1 Curso 2.md",
-    "Curso 2/Modulo 1/Os 8 Dominios.md",
     "Curso 2/Modulo 1/Gerenciar ameaças, riscos e vulnerabilidades comuns.md",
-    "Curso 2/Modulo 1",
     "Curso 2/Modulo 1/Gerenciamento de riscos do NIST.md",
-    "Curso 2",
+    "Curso 2/Modulo 1/Ameaças, riscos e vulnerabilidades.md",
+    "Curso 2/Modulo 1/Os 8 Dominios.md",
     "Curso 1/Modulo 4/Termos do Glossário Módulo 4.md",
+    "Curso 1/Modulo 4/Declaração profissional.md",
+    "Curso 1/Modulo 4/Criar um Portfólio de Segurança Cibernética.md",
+    "Curso 2/Modulo 2",
+    "Curso 2/Modulo 1",
+    "Curso 2",
     "Curso 2/Untitled.md",
     "Curso 1",
     "Glossário Geral.md",
     "Curso 1/Modulo 2/Termos do Glossário Módulo 2.md",
     "Curso 1/Modulo 1/Termos do Glossário do Módulo 1.md",
     "Curso 1/Modulo 3/Termos do Glossário Módulo 3.md",
-    "Curso 1/Modulo 4/Declaração profissional.md",
-    "Curso 1/Modulo 4/Criar um Portfólio de Segurança Cibernética.md",
     "Curso 1/Modulo 4/Usar Ferramentas para proteger as operações comerciais.md",
     "Curso 1/Modulo 4/Introdução ao Linux, SQL e Python.md",
     "Curso 1/Modulo 4/Ferramentas para proteger as operações comerciais.md",
@@ -232,13 +192,7 @@
     "Curso 1/Modulo 3/Ética em Segurança da Informação.md",
     "Curso 1/Modulo 3/Ética na segurança digital.md",
     "Curso 1/Modulo 3/Proteção de PII.md",
-    "Curso 1/Modulo 3/Introdução a Frameworks e controle de segurança..md",
-    "Curso 1/Modulo 3/Controles, Framework e conformidades.md",
-    "Curso 1/Modulo 3/Design Seguro.md",
-    "Curso 1/Modulo 2/Os Oitos domínios de segurança do CISSP.md",
     "Curso 1/Modulo 3",
-    "Curso 1/Modulo 2/Compreender os ataques.md",
-    "Curso 1/Modulo 2/Ataques anteriores a segurança cibernética.md",
     "Curso 1/Modulo 2",
     "Curso 1/Modulo 1"
   ]

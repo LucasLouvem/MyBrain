@@ -141,3 +141,5 @@ Este texto aborda a importância do **gerenciamento de riscos** na segurança 
 - **Monitoramento**: Usar ferramentas de SIEM (Gerenciamento de Eventos e Informações de Segurança) para detectar atividades suspeitas.
     
 - **Resposta**: Investigar e corrigir vulnerabilidades rapidamente para minimizar o impacto de possíveis ataques.
+
+Próximo Modulo [[Termos do glossário do Módulo 1 Curso 2]]

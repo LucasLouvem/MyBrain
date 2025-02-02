@@ -33,3 +33,5 @@
 **Engenharia social:** Uma técnica de manipulação que explora o erro humano para obter Informações privadas, acesso ou valores
 
 **Vulnerabilidade:** Um ponto fraco que pode ser explorado por uma ameaça
+
+Próximo Modulo [[Frameworks de Segurança]]
