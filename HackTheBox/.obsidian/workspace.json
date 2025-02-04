@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4684001eb88799a3",
+        "id": "9ea6857f989b96d3",
         "type": "tabs",
         "children": [
           {
-            "id": "44dc439bbe589d56",
+            "id": "69e6616280829119",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Machines/Vaccine (Very Easy).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vaccine (Very Easy)"
+              "title": "New tab"
             }
           }
         ]
@@ -168,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0fbc794a2aada43",
+  "active": "69e6616280829119",
   "lastOpenFiles": [
     "HTB Machines/Vaccine (Very Easy).md",
     "HTB Academy/Modules HTB/Login Brute Forcing.md",

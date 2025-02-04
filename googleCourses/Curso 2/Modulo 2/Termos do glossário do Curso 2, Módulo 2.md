@@ -53,3 +53,5 @@ Traduzido automaticamente do Inglês
 **Postura de segurança:** A capacidade de uma organização de gerenciar sua defesa de recursos e dados críticos e reagir a mudanças
 
 **Ameaça:** Qualquer circunstância ou evento que possa afetar negativamente os recursos
+
+Próximo Modulo [[Logs and SIEM tools]]

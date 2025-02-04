@@ -3,7 +3,7 @@
 ---
 
 ## Qual outro serviço está rodando além do SSH e HTTP?
-Está rodando na porta 21 o FTP.
+Está rodando o FTP na porta 21 .
 
 ### Saída do Nmap:
 ```bash
