@@ -78,3 +78,5 @@ As ferramentas **proprietárias** são desenvolvidas por empresas e geralmente *
 Tanto ferramentas **open-source** quanto **proprietárias** são essenciais na **cibersegurança**. A escolha depende das necessidades da organização, orçamento e nível de controle desejado.
 
 📌 **No seu caminho como pentester e analista de segurança, você precisará dominar ambas!** 💻🔍🔥
+
+Próximo Modulo [[ Use as ferramentas SIEM para proteger as organizações]]

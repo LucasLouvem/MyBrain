@@ -90,5 +90,5 @@ Antes de realizar uma auditoria, é essencial ter uma **lista de verificação**
 ✔️ Frameworks como **NIST CSF** e **ISO 27000** ajudam a padronizar o processo.  
 ✔️ Uma auditoria bem conduzida identifica vulnerabilidades e define planos de ação para mitigação de riscos.
 
-Próximo Modulo [[Termos do glossário do Curso 2, Módulo 2]]
+Próximo Modulo [[Glossário do Curso 2, Módulo 2]]
 
