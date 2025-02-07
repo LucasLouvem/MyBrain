@@ -22,10 +22,4 @@
 
 **Splunk Enterprise:** Uma ferramenta auto-hospedada usada para reter, analisar e pesquisar os dados de registro de uma organização para fornecer informações e alertas de segurança em tempo real
 
-Marcar como concluído
-
-Curtir
-
-Não curtir
-
-Relatar problema
+Próximo Modulo [[Fases de um manual de resposta a incidentes]]

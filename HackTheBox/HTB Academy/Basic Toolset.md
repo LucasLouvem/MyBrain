@@ -4,7 +4,7 @@ Dentro desse Path temos os seguintes módulos:
 
 - [[Network Enumeration with Nmap]]
 - [[Login Brute Forcing]]
-- [[Attacking Web Applications with ffuf]]
+- [[Attacking Web Applications with Ffuf]]
 - [[Cracking Passwords with Hashcat]]
 - [[SQLMap Essentials]]
 - [[Intro to Network Traffic Analysis]]

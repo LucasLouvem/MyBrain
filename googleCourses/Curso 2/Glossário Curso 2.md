@@ -81,3 +81,5 @@
 
 **V**  
 **Vulnerabilidade (Vulnerability):** Uma fraqueza que pode ser explorada por uma ameaça.
+
+Próxima Aula [[O Que São Redes de Computadores]]

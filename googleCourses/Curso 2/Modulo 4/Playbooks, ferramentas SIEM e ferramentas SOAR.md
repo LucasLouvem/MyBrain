@@ -70,3 +70,5 @@ O SOAR é um conjunto de ferramentas que automatiza tarefas repetitivas relacion
 ### **Conclusão**
 
 Playbooks, SIEM e SOAR são componentes essenciais para uma estratégia eficaz de segurança cibernética. Os playbooks padronizam respostas a incidentes, o SIEM monitora eventos e identifica ameaças, enquanto o SOAR automatiza respostas para mitigar riscos rapidamente. A combinação dessas ferramentas reduz o impacto de incidentes e protege os ativos da organização de forma estruturada e eficiente.
+
+Próximo Modulo [[Glossário Curso 2]]
