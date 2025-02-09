@@ -31,7 +31,8 @@
               "title": "Attacking Web Applications with Ffuf"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,8 +174,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "21dfd837f797b242",
+  "active": "afb23573f3d920ba",
   "lastOpenFiles": [
+    "googleCourses/O modelo TCP.IP.md",
+    "googleCourses/O modelo TCP/IP.md",
+    "googleCourses/O modelo TCP",
+    "googleCourses/Introdução a comunicação em rede.md",
+    "googleCourses/Curso 3/Computação em nuvem e redes definidas por software.md",
+    "googleCourses/Curso 3/Ferramentas de Rede.md",
+    "googleCourses/Curso 3/Componentes, Dispositivos e Diagramas de Rede.md",
+    "googleCourses/Computação em nuvem e redes definidas por software.md",
+    "googleCourses/Componentes, Dispositivos e Diagramas de Rede.md",
+    "googleCourses/Ferramentas de Rede.md",
     "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf",
     "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
@@ -195,22 +206,12 @@
     "HackTheBox/Redeemer.md",
     "HackTheBox/redeemer.md",
     "HackTheBox/Untitled.md",
-    "HackTheBox/HTB Machines/Dancing.md",
-    "HackTheBox/HTB Academy/SubTopics/SMB.md",
-    "HackTheBox/SMB.md",
-    "HackTheBox/Dancing.md",
-    "HackTheBox/HTB Machines/Fawn(Very Easy).md",
-    "HackTheBox/Fawn(Very Easy).md",
-    "HackTheBox/F.md",
-    "HackTheBox/HTB Academy/SubTopics/TELNET.md",
-    "HackTheBox/TELNET.md",
     "HackTheBox/HTB Machines/Images/Pasted image 20250119003534.png",
     "HackTheBox/HTB Machines/Images",
     "Programming/python/listRide.py",
     "Programming/python",
     "Programming/listRide.py",
     "Programming",
-    "googleCourses/Modulo 4",
-    "googleCourses"
+    "googleCourses/Modulo 4"
   ]
 }
