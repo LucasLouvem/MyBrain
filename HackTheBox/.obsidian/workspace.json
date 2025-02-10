@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69e6616280829119",
+            "id": "6bf15bddad6d2aa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
+                "file": "HTB Machines/CAP (Easy).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking Web Applications with Ffuf"
+              "title": "CAP (Easy)"
             }
           }
         ]
@@ -168,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69e6616280829119",
+  "active": "6bf15bddad6d2aa9",
   "lastOpenFiles": [
+    "HTB Machines/TwoMillion (Easy).md",
+    "HTB Machines/CAP (Easy).md",
+    "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HTB Machines/Vaccine (Very Easy).md",
     "HTB Academy/Modules HTB/Login Brute Forcing.md",
     "HTB Academy/Tools/Hydra.md",
@@ -184,7 +187,6 @@
     "HTB Academy/SubTopics/Redis.md",
     "HTB Machines/Fawn(Very Easy).md",
     "HTB Machines/Meow(Very Easy).md",
-    "HTB Machines/TwoMillion.md",
     "HTB Academy/SubTopics/TELNET.md",
     "telnet.md",
     "HTB Machines/Images/Pasted image 20250119003534.png",
