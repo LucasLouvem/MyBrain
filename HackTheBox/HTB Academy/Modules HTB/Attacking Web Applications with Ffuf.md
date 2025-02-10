@@ -159,3 +159,137 @@ admin    [Status: 200, Size: 465]
 - Sempre analise as respostas do servidor (códigos HTTP e tamanho da resposta).
 
 ---
+# Fuzzing Recursivo: Uma Visão Geral
+
+## Introdução
+
+O fuzzing recursivo automatiza a exploração de diretórios e subdiretórios, economizando tempo ao escanear estruturas complexas de sites.
+
+## Sinalizadores Recursivos
+
+- Ao ativar a recursão, o scanner inicia novas verificações em diretórios descobertos.
+    
+- Sites podem ter uma grande árvore de subdiretórios, tornando o processo demorado.
+    
+- Definir uma profundidade (**depth**) evita varreduras excessivas em diretórios muito profundos.
+    
+
+## Uso do ffuf para Fuzzing Recursivo
+
+- **Habilitar recursão:** `-recursion`
+    
+- **Definir profundidade:** `-recursion-depth <valor>`
+    
+    - Exemplo: `-recursion-depth 1` escaneia apenas diretórios principais e subdiretórios diretos.
+        
+- **Especificar extensão de arquivos:** `-e .php`
+    
+- **Gerar URLs completos:** `-v`
+    
+
+## Consideração Final
+
+Utilizar recursão com profundidade controlada melhora a eficiência da varredura e permite foco em diretórios mais relevantes.
+
+---
+
+# Fuzzing de Subdomínios
+## O que são Subdomínios?
+
+Subdomínios são partes de um domínio principal, representando sites ou serviços distintos. Exemplo:
+
+- **photos.google.com** é um subdomínio de **google.com**.
+
+## Como Identificar Subdomínios com o ffuf
+
+Podemos usar o **ffuf** para verificar se um subdomínio existe, testando diferentes entradas e verificando seus registros DNS.
+
+### Requisitos:
+
+1. **Wordlist:** Uma lista de palavras comuns para subdomínios.
+2. **Target:** O domínio principal a ser analisado.
+
+### Escolhendo uma Wordlist
+
+No repositório **SecLists**, há listas de subdomínios em:
+
+```
+/opt/useful/seclists/Discovery/DNS/
+```
+
+Para um teste rápido, podemos usar:
+
+```
+subdomains-top1million-5000.txt
+```
+
+Se precisarmos de uma busca mais abrangente, podemos usar listas maiores.
+
+### Executando o Fuzzing com ffuf
+
+Podemos usar o ffuf para testar subdomínios da seguinte forma:
+
+```bash
+ffuf -u http://FUZZ.website.com -w /opt/useful/seclists/Discovery/DNS/subdomains-top1million-5000.txt -mc 200,302
+```
+
+**Explicação:**
+
+- `-u http://FUZZ.website.com` → Substitui "FUZZ" pelos termos da wordlist.
+- `-w ...` → Especifica a wordlist.
+- `-mc 200,302` → Filtra respostas com códigos HTTP 200 (página encontrada) ou 302 (redirecionamento).
+
+### Considerações
+
+- Podemos melhorar a busca usando listas mais longas.
+- Respostas **NXDOMAIN** indicam subdomínios inexistentes.
+- Se o alvo bloquear muitas requisições, um **delay** pode ser necessário.
+
+Dessa forma, conseguimos encontrar subdomínios ocultos que podem levar a novas superfícies de ataque!
+
+---
+# Vhost Fuzzing
+
+## Diferença entre VHosts e Subdomínios
+
+- **VHosts**: Servem diferentes sites no mesmo servidor e IP.
+    
+- **Subdomínios**: Podem ter registros DNS públicos e apontar para diferentes servidores.
+    
+- **Nem todos os VHosts possuem registros DNS públicos**.
+    
+
+## Problema com Fuzzing de Subdomínios Tradicional
+
+- Fuzzing de subdomínios tradicionais identifica apenas subdomínios com registros DNS públicos.
+    
+- Subdomínios privados ou internos não são descobertos pelo método padrão.
+    
+
+## Solução: Vhost Fuzzing
+
+- Em vez de depender de registros DNS, testamos diferentes VHosts diretamente no mesmo IP.
+    
+- O processo envolve modificar cabeçalhos HTTP, especificamente o cabeçalho **Host:**.
+    
+
+## Como Realizar Vhost Fuzzing com ffuf
+
+Usamos o sinalizador **-H** para adicionar um cabeçalho HTTP personalizado:
+
+```
+ffuf -u http://IP_DO_ALVO -w wordlist.txt -H "Host: FUZZ.site.com"
+```
+
+- **-u**: Define a URL base.
+    
+- **-w**: Especifica a wordlist de possíveis VHosts.
+    
+- **-H**: Modifica o cabeçalho HTTP Host para testar diferentes VHosts.
+    
+
+## Benefício do Vhost Fuzzing
+
+- Descoberta de subdomínios internos e VHosts que não estão em registros DNS públicos.
+    
+- Identifica possíveis serviços ou aplicações ocultas no mesmo IP.

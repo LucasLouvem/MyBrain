@@ -16,23 +16,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "afb23573f3d920ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Attacking Web Applications with Ffuf"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,8 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afb23573f3d920ba",
+  "active": "21dfd837f797b242",
   "lastOpenFiles": [
+    "googleCourses/Curso 3/Saiba mais sobre o modelo TCP.IP.md",
+    "googleCourses/Curso 3/O modelo OSI.md",
+    "googleCourses/O modelo OSI.md",
+    "googleCourses/Saiba mais sobre o modelo TCP.IP.md",
+    "googleCourses/Curso 3/O modelo TCP.IP.md",
+    "googleCourses/Curso 3/Introdução a comunicação em rede.md",
+    "googleCourses/Curso 3/As quatro camadas do modelo TCP.IP.md",
+    "googleCourses/As quatro camadas do modelo TCP.IP.md",
+    "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "googleCourses/O modelo TCP.IP.md",
     "googleCourses/O modelo TCP/IP.md",
     "googleCourses/O modelo TCP",
@@ -186,7 +180,6 @@
     "googleCourses/Computação em nuvem e redes definidas por software.md",
     "googleCourses/Componentes, Dispositivos e Diagramas de Rede.md",
     "googleCourses/Ferramentas de Rede.md",
-    "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf",
     "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
     "googleCourses/Curso 3/O Que São Redes de Computadores.md",
@@ -198,14 +191,6 @@
     "googleCourses/Curso 2/Modulo 4/Glossário Curso 2.md",
     "HackTheBox/HTB Academy/SubTopics/Framework.md",
     "HackTheBox/HTB Academy/Modules HTB/Login Brute Forcing.md",
-    "HackTheBox/HTB Machines/Redeemer(Very Easy).md",
-    "HackTheBox/HTB Machines/Redeemer.md",
-    "HackTheBox/HTB Machines/Dancing(Very Easy).md",
-    "HackTheBox/HTB Academy/SubTopics/Redis.md",
-    "HackTheBox/Redis.md",
-    "HackTheBox/Redeemer.md",
-    "HackTheBox/redeemer.md",
-    "HackTheBox/Untitled.md",
     "HackTheBox/HTB Machines/Images/Pasted image 20250119003534.png",
     "HackTheBox/HTB Machines/Images",
     "Programming/python/listRide.py",

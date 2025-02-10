@@ -41,3 +41,5 @@ Esses números de porta ajudam a organizar e priorizar o tráfego na rede, garan
 ## Conclusão
 
 O modelo TCP/IP é a base de toda a comunicação de dados na Internet. Entender como ele funciona é crucial para garantir uma comunicação eficiente e segura entre dispositivos.
+
+Próximo Modulo [[As quatro camadas do modelo TCP.IP]]
