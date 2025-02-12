@@ -113,3 +113,6 @@ A comunicação em redes é organizada por meio de protocolos de rede. O **TCP/I
 
 ## Conclusão
 Os modelos TCP/IP e OSI são ferramentas fundamentais para entender a comunicação em redes. Enquanto o TCP/IP é mais prático e focado na Internet, o OSI oferece uma visão detalhada dos processos de rede. Dominar ambos os modelos é essencial para profissionais de TI e segurança.
+
+Próximo Modulo [[Endereços IP e comunicação em Rede]]
+
