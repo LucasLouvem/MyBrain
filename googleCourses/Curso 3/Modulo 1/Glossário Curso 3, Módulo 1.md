@@ -41,3 +41,5 @@
 **User Datagram Protocol (UDP):** Um protocolo sem conexão que não estabelece uma conexão entre dispositivos antes das transmissões
 
 **Rede de longa distância (WAN):** Uma rede que abrange uma grande área geográfica, como uma cidade, um estado ou um país
+
+Próximo Modulo [[Protocolos de Rede]]
