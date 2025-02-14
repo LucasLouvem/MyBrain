@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6bf15bddad6d2aa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB Machines/CAP (Easy).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CAP (Easy)"
-            }
-          },
-          {
             "id": "99ee2c04ecd4233b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Machines/Unified (VeryEasy).md",
+                "file": "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unified (VeryEasy)"
+              "title": "Attacking Web Applications with Ffuf"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,10 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0fbc794a2aada43",
+  "active": "99ee2c04ecd4233b",
   "lastOpenFiles": [
-    "HTB Machines/CAP (Easy).md",
     "HTB Machines/Unified (VeryEasy).md",
+    "HTB Machines/CAP (Easy).md",
     "HTB Machines/TwoMillion (Easy).md",
     "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HTB Machines/Vaccine (Very Easy).md",

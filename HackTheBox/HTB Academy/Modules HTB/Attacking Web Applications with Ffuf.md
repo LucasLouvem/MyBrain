@@ -293,3 +293,28 @@ ffuf -u http://IP_DO_ALVO -w wordlist.txt -H "Host: FUZZ.site.com"
 - Descoberta de subdomínios internos e VHosts que não estão em registros DNS públicos.
     
 - Identifica possíveis serviços ou aplicações ocultas no mesmo IP.
+
+
+# Filtrando Resultados no ffuf
+
+Por padrão, o **ffuf** já filtra respostas com código **404 (NOT FOUND)**, mantendo as demais. No entanto, muitos resultados podem ter código **200 (OK)**, tornando necessário um filtro adicional.
+
+## Opções de Filtro e Correspondência
+
+O **ffuf** permite filtrar ou corresponder resultados com base em:
+
+- **Código HTTP:** `-mc` (match) / `-fc` (filter)
+- **Quantidade de linhas:** `-ml` (match) / `-fl` (filter)
+- **Expressão regular:** `-mr` (match) / `-fr` (filter)
+- **Tamanho da resposta:** `-ms` (match) / `-fs` (filter)
+- **Quantidade de palavras:** `-mw` (match) / `-fw` (filter)
+
+### Exemplo de Uso
+
+Se as respostas incorretas possuem tamanho **900**, podemos filtrá-las com:
+
+```bash
+ffuf -u http://target/FUZZ -w wordlist.txt -fs 900
+```
+
+Isso remove respostas com **900 bytes**, deixando apenas os resultados relevantes.

@@ -47,3 +47,5 @@ Como analista de segurança, é essencial compreender a evolução dos protocolo
 2. **Utilize senhas fortes** – No WPA2-Pessoal, escolha uma senha complexa.
 3. **Atualize firmwares** – Mantenha roteadores e dispositivos sempre atualizados.
 4. **Ative firewalls e filtros de MAC** – Para maior controle de acesso.
+
+Próximo Modulo [[Firewalls e medidas de segurança de rede]]

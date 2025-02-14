@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curso 3/Modulo 2/A evolução dos protocolos de segurança sem fio.md",
+                "file": "Curso 3/Modulo 2/Zonas de Segurança.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A evolução dos protocolos de segurança sem fio"
+              "title": "Zonas de Segurança"
             }
           }
         ]
@@ -165,10 +165,19 @@
   },
   "active": "e1b5566f5c742545",
   "lastOpenFiles": [
+    "Glossário Geral.md",
+    "Curso 3/Modulo 2/Virtualização de redes e privacidade.md",
+    "Curso 3/Modulo 2/Virtualização de redes privadas(VPN).md",
+    "Termos do glossário do Curso 3, Modulo 1.md",
+    "Curso 3/Modulo 2/Protocolos VPN Wireguard e IPsec.md",
+    "Curso 3/Modulo 2/Servidores Proxy.md",
+    "Curso 3/Modulo 2/Subredes e CIDR.md",
+    "Curso 3/Modulo 2/Zonas de Segurança.md",
+    "Curso 3/Modulo 2/Firewalls e medidas de segurança de rede.md",
+    "Curso 3/Modulo 2/Protocolos de Rede Comuns.md",
     "Curso 3/Modulo 2/Protocolos de Rede Adicionais.md",
     "Curso 3/Modulo 2/Protocolos de Rede.md",
     "Curso 3/Modulo 2/A evolução dos protocolos de segurança sem fio.md",
-    "Curso 3/Modulo 2/Protocolos de Rede Comuns.md",
     "Curso 3/Modulo 1/Glossário Curso 3, Módulo 1.md",
     "Curso 3/Modulo 1/As quatro camadas do modelo TCP.IP.md",
     "Curso 3/Modulo 2",
@@ -185,17 +194,8 @@
     "O modelo TCP",
     "Curso 3/Modulo 1/Ferramentas de Rede.md",
     "Curso 3/Modulo 1/O Que São Redes de Computadores.md",
-    "Curso 2/Modulo 3/Use as ferramentas SIEM para proteger as organizações.md",
-    "Curso 2/Modulo 3/Glossário Curso 2, Módulo 3.md",
-    "Curso 2/Modulo 4/Fases de um manual de resposta a incidentes.md",
     "Curso 3",
-    "Curso 2/Glossário Curso 2.md",
-    "Curso 2/Modulo 4/Playbooks, ferramentas SIEM e ferramentas SOAR.md",
-    "Curso 2/Modulo 4/Mais informações sobre playbooks.md",
-    "Curso 2/Modulo 4/Glossário Curso 2, Módulo 4.md",
-    "Glossário Geral.md",
     "Curso 2/Modulo 4",
-    "Curso 2/Modulo 2/Glossário do Curso 2, Módulo 2.md",
     "Curso 2/Modulo 3",
     "Curso 2/Modulo 2",
     "Curso 2/Modulo 1",
