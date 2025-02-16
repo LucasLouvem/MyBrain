@@ -318,3 +318,109 @@ ffuf -u http://target/FUZZ -w wordlist.txt -fs 900
 ```
 
 Isso remove respostas com **900 bytes**, deixando apenas os resultados relevantes.
+
+---
+# Parameter Fuzzing - GET
+
+## Descobrindo Parâmetros com Fuzzing
+
+Ao realizar uma varredura recursiva com o `ffuf` no domínio `admin.academy.htb`, podemos encontrar a página:
+
+```
+http://admin.academy.htb:PORT/admin/admin.php
+```
+
+Ao acessá-la, notamos que algo deve estar validando o usuário para determinar se ele tem permissão para visualizar a flag. Como não fizemos login e não possuímos um cookie de autenticação, é provável que uma chave possa ser passada como parâmetro para acessar o conteúdo.
+
+Parâmetros como esse geralmente são transmitidos via requisições **GET** ou **POST**. Nesta seção, abordamos como identificar tais parâmetros por meio de fuzzing.
+
+### Importância do Fuzzing de Parâmetros
+Fuzzing pode revelar parâmetros ocultos que estão publicamente acessíveis. Como esses parâmetros costumam ser menos testados e protegidos, eles podem ser vulneráveis a ataques explorados em outros módulos.
+
+## Fuzzing de Requisições GET
+Os parâmetros GET são passados diretamente na URL, após o símbolo `?`, por exemplo:
+
+```
+http://admin.academy.htb:PORT/admin/admin.php?param1=key
+```
+
+Para descobrir parâmetros ocultos, podemos substituir `param1` por `FUZZ` e executar um scan com `ffuf`.
+
+### Escolhendo a Wordlist
+Para um fuzzing eficiente, utilizamos uma wordlist apropriada. O **SecLists** possui um arquivo específico para esse tipo de enumeração:
+
+```
+/opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt
+```
+
+Com essa wordlist, podemos rodar nosso fuzzing para identificar parâmetros aceitos pela página.
+
+---
+Este método é essencial para descobrir possíveis falhas de segurança e obter acesso a informações restritas em aplicações web.
+
+# Parameter Fuzzing - POST
+
+## Visão Geral
+A principal diferença entre requisições POST e GET é que os parâmetros de POST não são passados na URL e não podem ser simplesmente anexados após um símbolo `?`. Em vez disso, os dados são enviados no corpo da requisição HTTP.
+
+## Fuzzing com FFUF
+Para testar o campo de dados com **ffuf**, usamos a flag `-d`. Também é necessário adicionar `-X POST` para indicar que estamos enviando requisições POST.
+
+> **Dica:** Em PHP, o `Content-Type` de dados POST deve ser `application/x-www-form-urlencoded`. No **ffuf**, podemos definir isso com `-H 'Content-Type: application/x-www-form-urlencoded'`.
+
+### Comando para Fuzzing de Parâmetros POST:
+```bash
+ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ \
+    -u http://admin.academy.htb:PORT/admin/admin.php \
+    -X POST \
+    -d 'FUZZ=key' \
+    -H 'Content-Type: application/x-www-form-urlencoded' \
+    -fs xxx
+```
+
+### Exemplo de Saída:
+```
+id                      [Status: xxx, Size: xxx, Words: xxx, Lines: xxx]
+<...SNIP...>
+```
+
+Dessa vez, encontramos alguns parâmetros válidos, incluindo `id`. Para testar esse parâmetro, podemos usar **cURL**:
+
+```bash
+curl http://admin.academy.htb:PORT/admin/admin.php -X POST -d 'id=key' \
+    -H 'Content-Type: application/x-www-form-urlencoded'
+```
+
+Se a resposta for algo como:
+```html
+<div class='center'><p>Invalid id!</p></div>
+```
+Isso indica que o parâmetro `id` foi reconhecido, mas o valor passado é inválido.
+
+## Conclusão
+O fuzzing de parâmetros POST é útil para descobrir endpoints ocultos e variáveis não documentadas. Tais parâmetros podem ser vulneráveis a ataques como **SQL Injection**, **XSS** e **LFI**, tornando-os um alvo importante para testes de segurança.
+
+
+---
+# Value Fuzzing
+
+## Fuzzing de Valores
+Após identificar um parâmetro funcional, precisamos fuzzar o valor correto para obter a flag desejada. O processo é similar ao fuzzing de parâmetros, exigindo uma wordlist adequada.
+
+## Criando uma Wordlist Personalizada
+Nem sempre encontramos wordlists prontas para valores específicos. Algumas podem conter nomes de usuário, enquanto outras precisam ser criadas do zero. No caso de um parâmetro `id`, por exemplo, podemos gerar uma lista de números sequenciais.
+
+### Gerando uma Wordlist com Bash
+```bash
+for i in $(seq 1 1000); do echo $i >> ids.txt; done
+```
+Esse comando cria um arquivo `ids.txt` contendo números de 1 a 1000.
+
+## Fuzzing com FFUF
+O fuzzing de valores pode ser feito com FFUF, substituindo `FUZZ` pelo valor a ser testado:
+```bash
+ffuf -w ids.txt:FUZZ -u http://admin.academy.htb:PORT/admin/admin.php \
+    -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx
+```
+
+Após encontrar um valor válido, podemos enviar a requisição final via `curl` para coletar a flag.

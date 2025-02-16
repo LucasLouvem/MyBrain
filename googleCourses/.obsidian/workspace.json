@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curso 3/Modulo 2/Zonas de Segurança.md",
+                "file": "Ataques de Negacao de Servico(DOS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zonas de Segurança"
+              "title": "Ataques de Negacao de Servico(DOS)"
             }
           }
         ]
@@ -165,14 +165,18 @@
   },
   "active": "e1b5566f5c742545",
   "lastOpenFiles": [
-    "Glossário Geral.md",
-    "Curso 3/Modulo 2/Virtualização de redes e privacidade.md",
-    "Curso 3/Modulo 2/Virtualização de redes privadas(VPN).md",
-    "Termos do glossário do Curso 3, Modulo 1.md",
+    "Ler os registros do tcpdump.md",
+    "Relatório de Incidente de Segurança Cibernética.md",
+    "Ataques de Negacao de Servico(DOS).md",
+    "Curso 3/Modulo 2/Como as Invasões Comprometem seu Sistema.md",
+    "Curso 3/Modulo 2/Termos do glossário do Curso 3, Modulo 1.md",
     "Curso 3/Modulo 2/Protocolos VPN Wireguard e IPsec.md",
+    "Curso 3/Modulo 2/Virtualização de redes e privacidade.md",
     "Curso 3/Modulo 2/Servidores Proxy.md",
     "Curso 3/Modulo 2/Subredes e CIDR.md",
     "Curso 3/Modulo 2/Zonas de Segurança.md",
+    "Glossário Geral.md",
+    "Curso 3/Modulo 2/Virtualização de redes privadas(VPN).md",
     "Curso 3/Modulo 2/Firewalls e medidas de segurança de rede.md",
     "Curso 3/Modulo 2/Protocolos de Rede Comuns.md",
     "Curso 3/Modulo 2/Protocolos de Rede Adicionais.md",
@@ -189,11 +193,7 @@
     "Curso 3/Modulo 1/O modelo TCP.IP.md",
     "Curso 3/Modulo 1/Introdução a comunicação em rede.md",
     "Curso 3/Modulo 1/Computação em nuvem e redes definidas por software.md",
-    "Curso 3/Modulo 1/Componentes, Dispositivos e Diagramas de Rede.md",
-    "O modelo TCP/IP.md",
     "O modelo TCP",
-    "Curso 3/Modulo 1/Ferramentas de Rede.md",
-    "Curso 3/Modulo 1/O Que São Redes de Computadores.md",
     "Curso 3",
     "Curso 2/Modulo 4",
     "Curso 2/Modulo 3",
