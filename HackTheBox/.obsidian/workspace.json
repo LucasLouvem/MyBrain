@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
+                "file": "HTB Academy/Basic Toolset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking Web Applications with Ffuf"
+              "title": "Basic Toolset"
             }
           }
         ]
@@ -170,15 +170,15 @@
   },
   "active": "99ee2c04ecd4233b",
   "lastOpenFiles": [
+    "HTB Academy/Bug Bounty Hunter.md",
+    "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HTB Machines/Unified (VeryEasy).md",
     "HTB Machines/CAP (Easy).md",
     "HTB Machines/TwoMillion (Easy).md",
-    "HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
     "HTB Machines/Vaccine (Very Easy).md",
     "HTB Academy/Modules HTB/Login Brute Forcing.md",
     "HTB Academy/Tools/Hydra.md",
     "HTB Academy/Basic Toolset.md",
-    "HTB Academy/Bug Bounty Hunter.md",
     "HTB Academy/SubTopics/FTP.md",
     "HTB Machines/Dancing(Very Easy).md",
     "HTB Machines/Redeemer(Very Easy).md",

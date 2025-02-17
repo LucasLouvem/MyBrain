@@ -37,3 +37,5 @@ Após a detecção dos erros, os engenheiros de segurança foram acionados para 
 ### **Causa provável do incidente:**
 
 A causa mais provável é que um **firewall esteja bloqueando o tráfego DNS na porta 53**, possivelmente devido a uma configuração incorreta ou uma política de segurança ativada para restringir conexões externas. Outra possibilidade é que o servidor DNS esteja **offline** ou **com falha temporária**.
+
+Próximo Modulo [[Interceptação maliciosa de pacotes]]
