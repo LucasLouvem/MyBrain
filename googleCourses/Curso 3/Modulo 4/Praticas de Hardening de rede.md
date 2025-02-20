@@ -27,3 +27,5 @@ Algumas configurações são feitas uma única vez e ajustadas conforme necessá
 O endurecimento de rede é essencial para mitigar riscos e garantir que apenas usuários autorizados tenham acesso aos recursos necessários. A combinação de monitoramento constante, segmentação de rede e criptografia fortalece a segurança contra ameaças como invasões, malware e ataques internos.
 
 Esse conhecimento será útil para sua certificação e é essencial para sua carreira como analista de segurança.
+
+Próximo Modulo [[Aplicativos de segurança de rede]]
