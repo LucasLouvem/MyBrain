@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "c6f42bfa914e9e87",
+    "id": "061c7a5ccec8217b",
     "type": "split",
     "children": [
       {
-        "id": "3b08e2d6e7199cf0",
+        "id": "25b1e966a851061c",
         "type": "tabs",
         "children": [
           {
-            "id": "882582b3229c1178",
+            "id": "8f2e38a88448a901",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curso 3/Modulo 4/Atividade Análise do hardening de rede.md",
+                "file": "Criptografia e segurança na nuvem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Atividade Análise do hardening de rede"
+              "title": "Criptografia e segurança na nuvem"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a61cf58fa083d058",
+    "id": "ae6aca8e2fc60787",
     "type": "split",
     "children": [
       {
-        "id": "6518983953485854",
+        "id": "cd7a08398b0c7dbe",
         "type": "tabs",
         "children": [
           {
-            "id": "5fd46eea818c2c67",
+            "id": "da1eeeb6c99ea4aa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "acb019b36d85d960",
+            "id": "53e9d6c295036a08",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "2b9874e5fa2e70d4",
+            "id": "e479aee683c06e07",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "7c668d916ff877fe",
+    "id": "58a924f5dd26b92d",
     "type": "split",
     "children": [
       {
-        "id": "e9af0401658849b8",
+        "id": "211c6bf31aee5a31",
         "type": "tabs",
         "children": [
           {
-            "id": "3681f7ef46823e19",
+            "id": "a6c3453c01ab51c5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introdução a segurança cibernética.md",
+                "file": "Criptografia e segurança na nuvem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introdução a segurança cibernética"
+              "title": "Backlinks for Criptografia e segurança na nuvem"
             }
           },
           {
-            "id": "854f1550f52c752d",
+            "id": "1015d04e2e0960c7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introdução a segurança cibernética.md",
+                "file": "Criptografia e segurança na nuvem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introdução a segurança cibernética"
+              "title": "Outgoing links from Criptografia e segurança na nuvem"
             }
           },
           {
-            "id": "4b1ef7305b0c5292",
+            "id": "cf9cfc30a4a8311f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "102b4ded0e414f2a",
+            "id": "5793efda9e4ee306",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introdução a segurança cibernética.md"
+                "file": "Criptografia e segurança na nuvem.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introdução a segurança cibernética"
+              "title": "Outline of Criptografia e segurança na nuvem"
             }
           }
         ]
@@ -163,43 +168,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fd46eea818c2c67",
+  "active": "8f2e38a88448a901",
   "lastOpenFiles": [
-    "Curso 3/Atividade Análise do hardening de rede.md",
-    "Curso 3/Modulo 4/Atividade Análise do hardening de rede.md",
-    "Curso 3/Modulo 4/Aplicativos de segurança de rede.md",
-    "Curso 3/Modulo 4/Praticas de Hardening de rede.md",
-    "Curso 3/Modulo 4/Atividade Aplicar técnicas de proteção do sistema operacional.md",
-    "Curso 3/Modulo 3/Visão geral das táticas de interceptação.md",
-    "Curso 3/Modulo 3/IPS Spoofing.md",
-    "Curso 3/Modulo 4/Ataques de Força Bruta e Proteção do Sistema Operacional.md",
-    "Curso 3/Modulo 4/Práticas de proteção do sistema operacional.md",
-    "Curso 3/Modulo 4/Fortalecimento da Segurança.md",
-    "Curso 3/Modulo 3/Termos do glossário do Curso 3, Módulo 3.md",
-    "Curso 3/Modulo 3/Ler os registros do tcpdump.md",
-    "Curso 3/Modulo 4",
-    "Curso 3/Modulo 3/Atividade Analisar ataques à rede de computadores.md",
-    "Curso 3/Modulo 3/Ataques de Negacao de Servico(DOS).md",
-    "Curso 3/Modulo 3/Interceptação maliciosa de pacotes.md",
-    "Curso 3/Modulo 3/Atividade Relatório de Incidente de Segurança Cibernética.md",
-    "Curso 3/Modulo 3/Como as Invasões Comprometem seu Sistema.md",
-    "Curso 3/Modulo 2/Virtualização de redes privadas(VPN).md",
-    "Curso 3/Modulo 2/Firewalls e medidas de segurança de rede.md",
-    "Curso 3/Modulo 2/A evolução dos protocolos de segurança sem fio.md",
-    "Curso 3/Modulo 3",
-    "Curso 3/Modulo 2/Protocolos de Rede.md",
-    "Curso 3/Modulo 2/Termos do glossário do Curso 3, Modulo 1.md",
-    "Curso 3/Modulo 2/Protocolos VPN Wireguard e IPsec.md",
-    "Curso 3/Modulo 2/Virtualização de redes e privacidade.md",
-    "Curso 3/Modulo 2/Servidores Proxy.md",
-    "Curso 3/Modulo 2/Subredes e CIDR.md",
-    "Curso 3/Modulo 2",
-    "Curso 3/Modulo 1",
-    "O modelo TCP",
-    "Curso 3",
-    "Curso 2/Modulo 4",
-    "Curso 2/Modulo 3",
-    "Curso 2/Modulo 2",
-    "Curso 2/Modulo 1"
+    "Segurança na nuvem.md",
+    "Criptografia e segurança na nuvem.md",
+    "Modulo 4/Segurança da rede na nuvens.md",
+    "Modulo 4/Atividade Análise do hardening de rede.md",
+    "Modulo 4/Aplicativos de segurança de rede.md",
+    "Modulo 4/Praticas de Hardening de rede.md",
+    "Modulo 4/Atividade Aplicar técnicas de proteção do sistema operacional.md",
+    "Atividade Análise do hardening de rede.md",
+    "Modulo 4/Ataques de Força Bruta e Proteção do Sistema Operacional.md",
+    "Modulo 4/Práticas de proteção do sistema operacional.md"
   ]
 }

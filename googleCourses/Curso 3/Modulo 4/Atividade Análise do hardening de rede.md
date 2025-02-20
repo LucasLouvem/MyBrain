@@ -47,3 +47,6 @@ A falta de MFA aumenta significativamente o risco de acessos não autorizados. P
     
 
 **Como por exemplo**: Implementar MFA no acesso ao painel de gerenciamento do banco de dados e sistemas críticos como os de administradores.
+
+Próximo Modulo [[Segurança da rede na nuvens]]
+
