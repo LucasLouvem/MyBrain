@@ -25,10 +25,6 @@
     - **Salting**: adiciona um valor aleatório à senha antes de aplicar o hash.
     - **Exemplo:**
         
-        bash
-        
-        CopyEdit
-        
         `echo -n "p@ssw0rd" | md5sum 0f359740bd1cda994f8b55330c86d845  echo -n "p@ssw0rd123456" | md5sum f64c413ca36f5cfe643ddbec4f7d92d0`
         
     - **Colisões**: alguns algoritmos como MD5 são vulneráveis (diferentes entradas podem gerar o mesmo hash).
@@ -46,13 +42,10 @@
 
 - **Usa a mesma chave para criptografar e descriptografar**.
 - **Exemplo (XOR em Python):**
-    
-    python
-    
-    CopyEdit
-    
-    `from pwn import xor print(xor("p@ssw0rd", "secret"))  # Criptografa print(xor(b'\x03%\x10\x01\x12D\x01\x01', "secret"))  # Descriptografa`
-    
+ ```python
+   from pwn import xor print(xor("p@ssw0rd", "secret"))  # Criptografa              print(xor(b'\x03%\x10\x01\x12D\x01\x01', "secret"))  # Descriptografa
+   ```
+
 - **Algoritmos comuns:** AES, DES, 3DES, Blowfish.
 - **Vulnerabilidades:** ataques de força bruta, análise de frequência, ataque de padding oracle.
 
