@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Curso 3/Modulo 4/Atividade Análise do hardening de rede.md",
+                "file": "Curso 3/Modulo 4/Usar a NIST Cybersecurity Framework para responder a um incidente de segurança.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Atividade Análise do hardening de rede"
+              "title": "Usar a NIST Cybersecurity Framework para responder a um incidente de segurança"
             }
           }
         ]
@@ -165,8 +165,13 @@
   },
   "active": "5fd46eea818c2c67",
   "lastOpenFiles": [
-    "Curso 3/Atividade Análise do hardening de rede.md",
+    "Curso 3/Modulo 4/Termos do glossário Curso 3 Módulo 4.md",
+    "Curso 3/Modulo 4/Usar a NIST Cybersecurity Framework para responder a um incidente de segurança.md",
+    "Curso 3/Modulo 4/Criptografia e segurança na nuvem.md",
+    "Curso 3/Modulo 4/Segurança na nuvem.md",
+    "Curso 3/Modulo 4/Segurança da rede na nuvens.md",
     "Curso 3/Modulo 4/Atividade Análise do hardening de rede.md",
+    "Curso 3/Atividade Análise do hardening de rede.md",
     "Curso 3/Modulo 4/Aplicativos de segurança de rede.md",
     "Curso 3/Modulo 4/Praticas de Hardening de rede.md",
     "Curso 3/Modulo 4/Atividade Aplicar técnicas de proteção do sistema operacional.md",
@@ -188,11 +193,6 @@
     "Curso 3/Modulo 2/A evolução dos protocolos de segurança sem fio.md",
     "Curso 3/Modulo 3",
     "Curso 3/Modulo 2/Protocolos de Rede.md",
-    "Curso 3/Modulo 2/Termos do glossário do Curso 3, Modulo 1.md",
-    "Curso 3/Modulo 2/Protocolos VPN Wireguard e IPsec.md",
-    "Curso 3/Modulo 2/Virtualização de redes e privacidade.md",
-    "Curso 3/Modulo 2/Servidores Proxy.md",
-    "Curso 3/Modulo 2/Subredes e CIDR.md",
     "Curso 3/Modulo 2",
     "Curso 3/Modulo 1",
     "O modelo TCP",
