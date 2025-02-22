@@ -20,16 +20,20 @@
 # Respond
 - Plano de resposta ao incidente:
 	- Bloquear imediatamente pacotes ICMP suspeitos pelo firewall.
-	- Isolar os serviços criticos da rede para mitigar o impacto.
+	- Isolar os serviços críticos da rede para mitigar o impacto.
 	- Comunicação interna rápida ao informar a equipe técnica e operacional.
 - Analise pós-incidente:
 	- Revisar logs para determinar a origem do ataque.
-	- Ajustes nas regras do firewall mais rigidas conforme o necessario.
+	- Ajustes nas regras do firewall mais rígidas conforme o necessary.
 	- Relatar detalhadamente para documentar o incidente das ações tomadas
 # Recover
 - Restaurar serviços críticos: Priorização maxima ao recuperar os serviços essenciais da empresa
 - Melhorias no plano de recuperação: Criar um plano de respostas mais ágil para minimizar futuros ataque impedindo interrupções.
 - Backup e redundância: Garantia de backups atualizados para recuperação rápida dos sistemas
-- Revisão de processos: Realizar uma atualização das politicas de segurança para reforçar a resiliencia contra ataque DDoS.
+- Revisão de processos: Realizar uma atualização das politicas de segurança para reforçar a resiliência contra ataque DDoS.
 
 # Reflections/Notes
+
+Este incidente foi uma demostração de importância de uma configuração adequada de firewall e monitoramento contínuo da rede, a implementação de um sistema IDS/IPS e SIEM melhora significantemente a capacidade de respostas a ameaças. A adoção de politicas de segurança robustas e treinamentos regulares para a equipe são essenciais para a resiliência organizacional contra ataques futuros.
+
+Próximo Modulo [[Glossário Curso 3]]

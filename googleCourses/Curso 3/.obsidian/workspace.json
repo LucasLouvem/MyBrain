@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modulo 4/Atividade Usar a NIST Cybersecurity Framework para responder a um incidente de segurança.md",
+                "file": "Glossário Curso 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Atividade Usar a NIST Cybersecurity Framework para responder a um incidente de segurança"
+              "title": "Glossário Curso 3"
             }
           }
         ]
@@ -170,9 +170,10 @@
   },
   "active": "8f2e38a88448a901",
   "lastOpenFiles": [
+    "Modulo 4/Atividade Usar a NIST Cybersecurity Framework para responder a um incidente de segurança.md",
+    "Glossário Curso 3.md",
     "Modulo 4/Atividade Aplicar técnicas de proteção do sistema operacional.md",
     "Modulo 4/Praticas de Hardening de rede.md",
-    "Modulo 4/Atividade Usar a NIST Cybersecurity Framework para responder a um incidente de segurança.md",
     "Modulo 4/Atividade Análise do hardening de rede.md",
     "Segurança na nuvem.md",
     "Criptografia e segurança na nuvem.md",
