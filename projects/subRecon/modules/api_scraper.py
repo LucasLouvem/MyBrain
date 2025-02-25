@@ -11,6 +11,6 @@ def get_subdomains(domain):
         lines = response.text.split("\n")
         for line in lines:
             subdomain = line.split(",")[0]
-            subdomain.append(subdomain)
+            subdomains.append(subdomain)
 
     return subdomains

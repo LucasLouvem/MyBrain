@@ -13,7 +13,7 @@ def brute_force(domain):
             if response.status_code < 400:
                 found.append(subdomain)
                 print(f"[+] Encontrado: {subdomain}")
-            except requests.ConnectionError:
-                pass
+        except requests.ConnectionError:
+            pass
 
     return found
