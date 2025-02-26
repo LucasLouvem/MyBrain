@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3b08e2d6e7199cf0",
+        "id": "48c09f996ed450ab",
         "type": "tabs",
         "children": [
           {
-            "id": "882582b3229c1178",
+            "id": "c8acf6f8832d669e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ferramentas do ofício Linux e SQL/Modulo 1/Compare os sistemas operacionais.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Compare os sistemas operacionais"
-            }
-          },
-          {
-            "id": "1c5f06e28c54ff65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ferramentas do ofício Linux e SQL/Modulo 1/Solicitações ao sistema operacional.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Solicitações ao sistema operacional"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,9 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c5f06e28c54ff65",
+  "active": "c8acf6f8832d669e",
   "lastOpenFiles": [
     "Ferramentas do ofício Linux e SQL/Modulo 1/Compare os sistemas operacionais.md",
+    "Conectar e proteger Redes de computadores e segurança de rede/Glossário Curso 3.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1/Solicitações ao sistema operacional.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1",
     "Ferramentas do ofício Linux e SQL",
@@ -208,7 +190,6 @@
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Atividade Relatório de Incidente de Segurança Cibernética.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Como as Invasões Comprometem seu Sistema.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2/Virtualização de redes privadas(VPN).md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2/Firewalls e medidas de segurança de rede.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 1",

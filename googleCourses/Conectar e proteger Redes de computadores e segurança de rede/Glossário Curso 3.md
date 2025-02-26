@@ -128,3 +128,6 @@
 
 **Wide Area Network (WAN - Rede de longa distância):** Uma rede que abrange uma grande área geográfica, como uma cidade, estado ou país.  
 **Wi-Fi Protected Access (WPA - Acesso Protegido Wi-Fi):** Um protocolo de segurança sem fio para dispositivos se conectarem à internet.
+
+Próximo Modulo [[Compare os sistemas operacionais]]
+
