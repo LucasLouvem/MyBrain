@@ -92,3 +92,5 @@ A virtualização não se limita a VMs. Outros exemplos incluem:
     
 
 A virtualização é uma tecnologia essencial para segurança, testes e otimização de recursos, sendo amplamente utilizada em ambientes profissionais e educacionais.
+
+Próximo Modulo [[GUI versus CLI]]
