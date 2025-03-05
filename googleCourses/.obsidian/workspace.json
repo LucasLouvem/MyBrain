@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "48c09f996ed450ab",
+        "id": "3b08e2d6e7199cf0",
         "type": "tabs",
         "children": [
           {
-            "id": "c8acf6f8832d669e",
+            "id": "882582b3229c1178",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Ferramentas do ofício Linux e SQL/Modulo 1/Compare os sistemas operacionais.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Compare os sistemas operacionais"
+            }
+          },
+          {
+            "id": "1c5f06e28c54ff65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ferramentas do ofício Linux e SQL/Modulo 2/Arquitetura linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arquitetura linux"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,11 +178,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8acf6f8832d669e",
+  "active": "5fd46eea818c2c67",
   "lastOpenFiles": [
-    "Ferramentas do ofício Linux e SQL/Modulo 1/Compare os sistemas operacionais.md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Glossário Curso 3.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 2/Introdução ao Linux.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 2/Arquitetura linux.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 1/Termos do glossário do Curso 4, Módulo 1.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 1/A linha de comando em uso.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 1/GUI versus CLI.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 1/Tecnologia de virtualização.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1/Solicitações ao sistema operacional.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 1/Compare os sistemas operacionais.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 2",
     "Ferramentas do ofício Linux e SQL/Modulo 1",
     "Ferramentas do ofício Linux e SQL",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 4/Termos do glossário Curso 3 Módulo 4.md",
@@ -185,17 +210,11 @@
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Ler os registros do tcpdump.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 4",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Atividade Analisar ataques à rede de computadores.md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Ataques de Negacao de Servico(DOS).md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Interceptação maliciosa de pacotes.md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Atividade Relatório de Incidente de Segurança Cibernética.md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Como as Invasões Comprometem seu Sistema.md",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2/Virtualização de redes privadas(VPN).md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 1",
     "O modelo TCP",
     "Conectar e proteger Redes de computadores e segurança de rede",
-    "Mantenha a segurança Gerenciamento de riscos/Modulo 4",
-    "Mantenha a segurança Gerenciamento de riscos/Modulo 3"
+    "Mantenha a segurança Gerenciamento de riscos/Modulo 4"
   ]
 }

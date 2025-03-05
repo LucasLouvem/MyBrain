@@ -23,3 +23,5 @@
 **Interface do usuário (IU):** Um programa que permite que o usuário controle as funções do sistema operacional
 
 **Máquina virtual (VM)**: Uma versão virtual de um computador físico
+
+Próximo Modulo [[Introdução ao Linux]]
