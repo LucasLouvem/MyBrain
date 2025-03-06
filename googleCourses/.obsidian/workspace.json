@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Arquitetura linux"
             }
+          },
+          {
+            "id": "3d24071b76200c40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Termos do glossário curso 4, Módulo 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Termos do glossário curso 4, Módulo 2"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,10 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fd46eea818c2c67",
+  "active": "3d24071b76200c40",
   "lastOpenFiles": [
-    "Ferramentas do ofício Linux e SQL/Modulo 2/Introdução ao Linux.md",
     "Ferramentas do ofício Linux e SQL/Modulo 2/Arquitetura linux.md",
+    "Termos do glossário curso 4, Módulo 2.md",
+    "Ferramentas do ofício Linux e SQL/Modulo 2/Introdução ao Linux.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1/Termos do glossário do Curso 4, Módulo 1.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1/A linha de comando em uso.md",
     "Ferramentas do ofício Linux e SQL/Modulo 1/GUI versus CLI.md",
@@ -209,7 +224,6 @@
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Termos do glossário do Curso 3, Módulo 3.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Ler os registros do tcpdump.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 4",
-    "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3/Atividade Analisar ataques à rede de computadores.md",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 3",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 2",
     "Conectar e proteger Redes de computadores e segurança de rede/Modulo 1",
