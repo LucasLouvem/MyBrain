@@ -33,3 +33,5 @@ O Linux, assim como os edifícios, possui uma arquitetura composta por diversos 
 
 ## Conclusão
 Compreender a arquitetura do Linux é essencial para usar e administrar o sistema de maneira eficiente. Cada componente desempenha um papel fundamental para garantir que o sistema funcione corretamente e atenda às necessidades dos usuários.
+
+Próximo Modulo [[Explicação da arquitetura do linux]]

@@ -73,5 +73,7 @@ Para acompanhar vulnerabilidades e patches de segurança:
 ---
 ✍️ **Dica**: Estudar o funcionamento interno dos sistemas operacionais ajuda a entender melhor as ameaças e como mitigá-las!
 
-Próximo Modulo [[Solicitações ao sistema operacional]]
+Próximo Modulo [[Dentro do sistema operacional]]
+
+
 

@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44775ce33794ad55",
+            "id": "642d03e1229b3d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modulo 1/Solicitações ao sistema operacional.md",
+                "file": "Consulta a um banco de dados.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solicitações ao sistema operacional"
-            }
-          },
-          {
-            "id": "0ecf29177b11f0b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modulo 1/Termos do glossário do Curso 4, Módulo 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Termos do glossário do Curso 4, Módulo 1"
+              "title": "Consulta a um banco de dados"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tecnologia de virtualização.md",
-                "collapseAll": false,
+                "file": "Modulo 1/A linha de comando em uso.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tecnologia de virtualização"
+              "title": "Backlinks for A linha de comando em uso"
             }
           },
           {
@@ -128,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tecnologia de virtualização.md",
+                "file": "Modulo 1/A linha de comando em uso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tecnologia de virtualização"
+              "title": "Outgoing links from A linha de comando em uso"
             }
           },
           {
@@ -166,7 +151,8 @@
               "title": "Outline of Tecnologia de virtualização"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,14 +169,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49306d5ff67991bb",
+  "active": "642d03e1229b3d92",
   "lastOpenFiles": [
-    "Modulo 2",
-    "Modulo 1/A linha de comando em uso.md",
+    "Modulo 4/Filtragem SQL versus filtragem Linux.md",
+    "Consulta a um banco de dados.md",
+    "Modulo 4/Introdução aos bancos de dados.md",
+    "Modulo 3/Termos do glossário do Curso 4, Módulo 3.md",
+    "Modulo 4/Recursos do Linux.md",
+    "Modulo 3/Adicionar e excluir usuários.md",
+    "Modulo 3/Permissões e propriedade de arquivos.md",
+    "Modulo 3/Criar e modificar diretórios e arquivos.md",
+    "Modulo 3/Encontre o que você precisa com o Linux.md",
+    "Modulo 3/Filtragem de conteúdo no Linux.md",
+    "Modulo 3/Navegar no Linux e ler o conteúdo dos arquivos.md",
+    "Modulo 3/Comandos principais para navegação e leitura de arquivos.md",
+    "Modulo 3/Comandos do Linux via shell bash.md",
+    "Modulo 2/Termos do glossário do Curso 4, Módulo 2.md",
+    "Modulo 2/Entrada e saída no shell.md",
+    "Modulo 2/Introdução ao shell.md",
+    "Modulo 2/Distribuições Linux.md",
+    "Modulo 2/Gerenciadores de pacotes para instalar aplicativos.md",
+    "Modulo 2/Explicação da arquitetura do linux.md",
+    "Modulo 2/Arquitetura linux.md",
+    "Modulo 2/Introdução ao Linux.md",
     "Modulo 1/Termos do glossário do Curso 4, Módulo 1.md",
+    "Modulo 1/A linha de comando em uso.md",
     "Modulo 1/GUI versus CLI.md",
     "Modulo 1/Tecnologia de virtualização.md",
-    "Modulo 1/Solicitações ao sistema operacional.md",
-    "Modulo 1/Compare os sistemas operacionais.md"
+    "Modulo 1/Alocação de recursos por meio do sistema operacional.md",
+    "Modulo 4",
+    "Modulo 2"
   ]
 }

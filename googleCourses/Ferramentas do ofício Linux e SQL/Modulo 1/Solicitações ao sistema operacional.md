@@ -39,6 +39,7 @@ O sistema operacional trabalha silenciosamente como um intermediário, semelhant
 - O sistema operacional conecta usuários, aplicativos e hardware.
 - Ele garante a execução das tarefas, mesmo operando em segundo plano.
 - Compreender seu funcionamento ajuda a diagnosticar problemas e otimizar o uso do computador.
+Próximo Modulo [[Alocação de recursos por meio do sistema operacional]]
 
-Próximo Modulo [[Tecnologia de virtualização]]
+
 
