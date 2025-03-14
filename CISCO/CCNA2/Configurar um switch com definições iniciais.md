@@ -38,3 +38,42 @@ Antes de configurar um Switch ele precisa ser ativado e passar pela sequência d
 ```
 
 Resumindo: O switch primeiro tenta usar a variável BOOT para encontrar o IOS. Se não encontrar, busca um arquivo padrão na memória flash. Depois que o IOS carrega, ele aplica as configurações salvas no startup-config. 🚀
+
+# Alternar Indicadores LED
+
+Os switches Cisco Catalyst possuem várias luzes de LED indicando seus status. No qual permite monitorar rapidamente o desempenho e a atividade do switch. Interruptores de diferentes modelos e conjuntos de recursos terão LEDs diferentes e sua colocação no painel diferentes podem ser variadas.
+
+Tipos de botões:
+	O botão "MODE" -> usado para alternar pelo status da porta(Porta duplex, velocidade da porta, e se suportado o status Power over Ethernet(POE) dos LEDs da porta).
+
+- 1 SYST -> Mostra se o sistema está recebendo energia e está funcionando corretamente.
+	- LED Desligado -> Sistema desligado.
+	- LED Verde -> Sistema funcionando normalmente.
+	- LED âmbar -> Sistema está recebendo energia, mas não está funcionando corretamente.
+- 2 RPS -> Mostra o Status RPS (Sistema redundante de fonte).
+	- LED Apagado -> RPS desativado ou não conectado corretamente.
+	- LED Verde -> Conectado e pronto para fornecer energia reserva
+	- LED Piscando Verde -> RPS conectado mas não disponível pois está fornecendo energia para outro dispositivo.
+	- LED Amarelo -> RPS em modo de espera ou em condição de falha.
+	- LED piscando âmbar -> Fonte de alimentação interna do comutador falhou e o RPS está fornecendo energia.
+- 3 STAT -> LED de status da porta, indica que o modo do status da porta está dependendo da cor.
+	- LED de Status da porta verde -> Modo padrão, indica o modo de status da porta está selecionado, quando selecionado, os LEDs de porta exibirão cores com significados diferentes.
+	- LED Apagado -> Não a link ou a porta foi desligada administrativamente.
+	- LED Verde -> Um link está presente.
+	- LED piscando verde -> Há atividade na porta e a porta está enviando ou recebendo dados.
+	- LED estiver alternando entre verde-âmbar -> Há uma falha de link.
+	- LED Amarelo -> Porta bloqueada para garantir que não exista nenhum loop no domínio de encaminhamento e que este não esteja enviando dados(Portas ficarão nesse estado por aproximadamente 30 segundos após serem ativadas).
+	- LED piscando âmbar -> Porta será bloqueada para evitar um possível loop de domínio de encaminhamento.
+- 4 DUPLX -> LED da porta duplex
+	- LED da porta duplex Verde -> Modo duplex ligado.
+	- LED desligados -> Modo Semi-duplex.
+	- LED verde -> estará no modo full-duplex.
+- 5 SPEED -> Indica que o modo de velocidade da porta está selecionado. Quando selecionado, os LEDs exibirão cores diferentes com significados diferentes.
+	- LED apagado -> Porta operando a 10 Mbps.
+	- LED verde -> Porta operando a 100 Mbps.
+	- LED piscando verde -> Porta operando a 1000 Mbps.
+- 6 PoE -> Led do modo Power over Ethernet (PoE) - Se suportado, um LED de modo PoE estará presente.
+	- LED desligado -> Modo PoE não selecionado e que nenhuma das portas foi negada energia ou colocada em uma condição de falha.
+	- LED piscando âmbar -> Modo PoE não selecionado, mas pelo menos uma das portas foi negada energia ou tem uma falha PoE.
+	- LED verde -> indica que o PoE foi selecionado e os LEDs da porta exibirão cores com significados diferentes.
+		- LED da porta 

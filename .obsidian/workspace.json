@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISCO/CCNA2/Untitled.md",
+                "file": "CISCO/CCNA2/Configurar um switch com definições iniciais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Configurar um switch com definições iniciais"
             }
           }
         ]
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d67e5fda530a27ae",
+  "active": "96ba7d9840e523e7",
   "lastOpenFiles": [
     "CISCO/CCNA2",
     "HackTheBox/HTB Academy/Penetration Tester Job Role Path.md",
