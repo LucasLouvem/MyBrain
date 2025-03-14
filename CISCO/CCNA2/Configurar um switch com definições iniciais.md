@@ -76,4 +76,36 @@ Tipos de botões:
 	- LED desligado -> Modo PoE não selecionado e que nenhuma das portas foi negada energia ou colocada em uma condição de falha.
 	- LED piscando âmbar -> Modo PoE não selecionado, mas pelo menos uma das portas foi negada energia ou tem uma falha PoE.
 	- LED verde -> indica que o PoE foi selecionado e os LEDs da porta exibirão cores com significados diferentes.
-		- LED da porta 
+		- LED da porta desligado -> PoE desligado.
+		- LED da porta verde -> PoE ligado.
+		- LED alternando verde-âmbar -> PoE será negado pois o fornecimento de energia ao dispositivo alimentado excederá a capacidade de alimentação do switch.
+		- LED piscando âmbar -> PoE para a porta foi desativado.
+# Recuperando de um travamento de sistema:
+
+O carregador de inicialização fornece acesso ao switch se o sistema operacional não puder ser usado devido a arquivos ausentes ou danificados. Ele possui uma linha de comando que fornece acesso aos arquivos armazenados na memoria flash.
+
+Podemos acessar através de um console com as seguintes etapas:
+1. Conecte o cabo console na porta console do switch, configure o software de emulação de terminal para conexão ao comutador.
+2. Desconecte o cabo de alimentação do switch.
+3. Reconecte o cabo, dentro de 15s, pressione e mantenha pressionado o botão MODE enquanto o LED do sistema estiver piscando verde.
+4. Continue pressionando o botão Mode até que o LED do sistema fique brevemente âmbar e verde sólido; em seguida solte o botão Mode.
+5. The boot loader switch: aparece no software de emulação de terminal do PC.
+
+	Digite **help** ou **?**  no prompt para descobrir quais os comando estão disponíveis
+
+Por padrão o Switch tenta iniciar automaticamente pelas informações da variável de ambiente BOOT, para descobrir o caminho da variável de ambiente BOOT do switch digite o comando **set**. Em seguida, inicialize o sistema de arquivos flash usando o comando **flash_init** para visualizar os arquivos atuais em flash, como mostrado na saída.
+
+```shell
+switch: set
+BOOT=flash:/c2960-lanbasek9-mz.122-55.SE7/c2960-lanbasek9-mz.122-55.SE7.bin
+switch:flash_init
+Initiazing Flash...
+...etc...
+...done Initializing Flash.
+```
+
+Após a inicialização do flash, você pode inserir o comando dir flash: para visualizar os diretórios e arquivos em flash, como mostrado a seguir:
+
+```shell
+
+```
