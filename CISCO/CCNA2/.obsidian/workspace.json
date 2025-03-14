@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "f966c390515a4b83",
+    "id": "ca83109f6626dba4",
     "type": "split",
     "children": [
       {
-        "id": "32ee090511a2774c",
+        "id": "335214c2fbefc49c",
         "type": "tabs",
         "children": [
           {
-            "id": "96ba7d9840e523e7",
+            "id": "6ba978613477d44d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CISCO/CCNA2/Untitled.md",
+                "file": "Configurar um switch com definições iniciais.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Configurar um switch com definições iniciais"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d456180c9a0384f1",
+    "id": "8a45bad59943e3aa",
     "type": "split",
     "children": [
       {
-        "id": "8c7529a127a007b2",
+        "id": "8572139ae6b34ee8",
         "type": "tabs",
         "children": [
           {
-            "id": "d67e5fda530a27ae",
+            "id": "77db83d0782301f6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "49e37390f957178e",
+            "id": "b3888afbaeb5af6a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "ac2253f0cb2d3845",
+            "id": "81e61084ed5c50d5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "9bf0f228dfa185e8",
+    "id": "dfe49a7d210599af",
     "type": "split",
     "children": [
       {
-        "id": "db6ce5711cccbb04",
+        "id": "ec7864e1ebd6d611",
         "type": "tabs",
         "children": [
           {
-            "id": "dab28b7c13d63921",
+            "id": "bad6e81b471ba039",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "Configurar um switch com definições iniciais.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,46 +104,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for O que é Hardware;"
+              "title": "Backlinks for Configurar um switch com definições iniciais"
             }
           },
           {
-            "id": "fe3dda205ffd9aaf",
+            "id": "81951087e473a8fd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Starting/O que é Hardware;.md",
+                "file": "Configurar um switch com definições iniciais.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from O que é Hardware;"
+              "title": "Outgoing links from Configurar um switch com definições iniciais"
             }
           },
           {
-            "id": "afe3fa27d3eccb64",
+            "id": "9e9bd7a486f7321c",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "1d13bfeb2353223f",
+            "id": "443d8199635ff4b4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Starting/O que é Hardware;.md"
+                "file": "Configurar um switch com definições iniciais.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of O que é Hardware;"
+              "title": "Outline of Configurar um switch com definições iniciais"
             }
           }
         ]
@@ -163,44 +168,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d67e5fda530a27ae",
-  "lastOpenFiles": [
-    "CISCO/CCNA2",
-    "HackTheBox/HTB Academy/Penetration Tester Job Role Path.md",
-    "CISCO/CCNA2/Untitled.md",
-    "CISCO/Python.md",
-    "CISCO",
-    "HackTheBox/HTB Academy/Bug Bounty Hunter.md",
-    "zProjeto Futuro/Fase 1 Planejamento e Infraestrutura.md",
-    "zProjeto Futuro/Projeto LeakWatcher - nome provisório.md",
-    "zProjeto Futuro",
-    "googleCourses/Curso 3/Saiba mais sobre o modelo TCP.IP.md",
-    "googleCourses/Curso 3/O modelo OSI.md",
-    "googleCourses/O modelo OSI.md",
-    "googleCourses/Saiba mais sobre o modelo TCP.IP.md",
-    "googleCourses/Curso 3/O modelo TCP.IP.md",
-    "googleCourses/Curso 3/Introdução a comunicação em rede.md",
-    "googleCourses/Curso 3/As quatro camadas do modelo TCP.IP.md",
-    "googleCourses/As quatro camadas do modelo TCP.IP.md",
-    "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf.md",
-    "googleCourses/O modelo TCP.IP.md",
-    "googleCourses/O modelo TCP/IP.md",
-    "googleCourses/O modelo TCP",
-    "googleCourses/Introdução a comunicação em rede.md",
-    "googleCourses/Curso 3/Computação em nuvem e redes definidas por software.md",
-    "googleCourses/Curso 3/Ferramentas de Rede.md",
-    "googleCourses/Curso 3/Componentes, Dispositivos e Diagramas de Rede.md",
-    "googleCourses/Computação em nuvem e redes definidas por software.md",
-    "googleCourses/Componentes, Dispositivos e Diagramas de Rede.md",
-    "googleCourses/Ferramentas de Rede.md",
-    "HackTheBox/HTB Academy/Modules HTB/Attacking Web Applications with Ffuf",
-    "faculdade/Protocolos de Rede De Computadores/Protocolos da Aplicação da Internet.md",
-    "googleCourses/Curso 3",
-    "googleCourses/Untitled",
-    "HackTheBox/HTB Machines/Images/Pasted image 20250119003534.png",
-    "HackTheBox/HTB Machines/Images",
-    "Programming/python/listRide.py",
-    "Programming/python",
-    "Programming/listRide.py"
-  ]
+  "active": "6ba978613477d44d",
+  "lastOpenFiles": []
 }
