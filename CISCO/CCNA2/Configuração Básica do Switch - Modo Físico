@@ -1,0 +1,28 @@
+Quantas faixar 
+
+R: 28
+
+Qual é a faixa de valores mostrados nas linhas VTY?
+R: 0 4
+
+Por que aparece a mensagem, "startup-config is not present"?
+R: Isso significa que o switch Não tem uma configuração salva na NVRAM.
+
+Examine as caracteristicas do SBI para a VLAN1;
+	Existe algum endereço IP atribuído à VLAN1?
+	R: Não.
+
+	Qual é o endereço MAC do SVI?
+	R: 0060.2fde.172d
+
+	Essa interface está ativa?
+	R: Não.
+
+Examine as propriedades IP do SVI VLAN1:
+```shell
+Switch#show ip interface vlan1
+```
+Qual saida você vê?
+Vlan1 is administratively down, line protocol is down
+  Internet protocol processing disabled
+
